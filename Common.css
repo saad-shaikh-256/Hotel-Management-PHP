@@ -1,0 +1,182 @@
+/* Font Faces */
+@font-face {
+   font-family: 'Poppins-light';
+   src: url('Materials/Fonts/Poppins/Poppins-Light.ttf');
+}
+
+@font-face {
+   font-family: 'Poppins-regular';
+   src: url('Materials/Fonts/Poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+   font-family: 'Poppins-medium';
+   src: url('Materials/Fonts/Poppins/Poppins-Medium.ttf');
+}
+
+@font-face {
+   font-family: 'Poppins-semibold';
+   src: url('Materials/Fonts/Poppins/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+   font-family: 'Poppins-bold';
+   src: url('Materials/Fonts/Poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+   font-family: 'Poppins-italic';
+   src: url('Materials/Fonts/Poppins/Poppins-Italic.ttf');
+}
+
+/* Lufga Black */
+@font-face {
+   font-family: 'Lufga-Black';
+   src: url('Materials/Fonts/Lufga/LufgaBlack.ttf');
+   font-weight: 900;
+}
+
+/* Lufga Black Italic */
+@font-face {
+   font-family: 'Lufga-BlackItalic';
+   src: url('Materials/Fonts/Lufga/LufgaBlackItalic.ttf');
+   font-weight: 900;
+   font-style: italic;
+}
+
+/* Lufga Bold */
+@font-face {
+   font-family: 'Lufga-Bold';
+   src: url('Materials/Fonts/Lufga/LufgaBold.ttf');
+   font-weight: bold;
+}
+
+/* Lufga Bold Italic */
+@font-face {
+   font-family: 'Lufga-BoldItalic';
+   src: url('Materials/Fonts/Lufga/LufgaBoldItalic.ttf');
+   font-weight: bold;
+   font-style: italic;
+}
+
+/* Lufga ExtraBold */
+@font-face {
+   font-family: 'Lufga-ExtraBold';
+   src: url('Materials/Fonts/Lufga/LufgaExtraBold.ttf');
+   font-weight: 800;
+}
+
+/* Lufga ExtraBold Italic */
+@font-face {
+   font-family: 'Lufga-ExtraBoldItalic';
+   src: url('Materials/Fonts/Lufga/LufgaExtraBoldItalic.ttf');
+   font-weight: 800;
+   font-style: italic;
+}
+
+/* Lufga ExtraLight */
+@font-face {
+   font-family: 'Lufga-ExtraLight';
+   src: url('Materials/Fonts/Lufga/LufgaExtraLight.ttf');
+   font-weight: 200;
+}
+
+/* Lufga ExtraLight Italic */
+@font-face {
+   font-family: 'Lufga-ExtraLightItalic';
+   src: url('Materials/Fonts/Lufga/LufgaExtraLightItalic.ttf');
+   font-weight: 200;
+   font-style: italic;
+}
+
+/* Lufga Italic */
+@font-face {
+   font-family: 'Lufga-Italic';
+   src: url('Materials/Fonts/Lufga/LufgaItalic.ttf');
+   font-style: italic;
+}
+
+/* Lufga Light */
+@font-face {
+   font-family: 'Lufga-Light';
+   src: url('Materials/Fonts/Lufga/LufgaLight.ttf');
+   font-weight: 300;
+}
+
+/* Lufga Light Italic */
+@font-face {
+   font-family: 'Lufga-LightItalic';
+   src: url('Materials/Fonts/Lufga/LufgaLightItalic.ttf');
+   font-weight: 300;
+   font-style: italic;
+}
+
+/* Lufga Medium */
+@font-face {
+   font-family: 'Lufga-Medium';
+   src: url('Materials/Fonts/Lufga/LufgaMedium.ttf');
+   font-weight: 500;
+}
+
+/* Lufga Medium Italic */
+@font-face {
+   font-family: 'Lufga-MediumItalic';
+   src: url('Materials/Fonts/Lufga/LufgaMediumItalic.ttf');
+   font-weight: 500;
+   font-style: italic;
+}
+
+/* Lufga Regular */
+@font-face {
+   font-family: 'Lufga-Regular';
+   src: url('Materials/Fonts/Lufga/LufgaRegular.ttf');
+   font-weight: normal;
+}
+
+/* Lufga Semibold */
+@font-face {
+   font-family: 'Lufga-Semibold';
+   src: url('Materials/Fonts/Lufga/LufgaSemibold.ttf');
+   font-weight: 600;
+}
+
+/* Lufga Semibold Italic */
+@font-face {
+   font-family: 'Lufga-SemiboldItalic';
+   src: url('Materials/Fonts/Lufga/LufgaSemiboldItalic.ttf');
+   font-weight: 600;
+   font-style: italic;
+}
+
+/* Lufga Thin */
+@font-face {
+   font-family: 'Lufga-Thin';
+   src: url('Materials/Fonts/Lufga/LufgaThin.ttf');
+   font-weight: 100;
+}
+
+/* Lufga Thin Italic */
+@font-face {
+   font-family: 'Lufga-ThinItalic';
+   src: url('Materials/Fonts/Lufga/LufgaThinItalic.ttf');
+   font-weight: 100;
+   font-style: italic;
+}
+
+/* Global Reset */
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Poppins-regular';
+}
+
+/* HTML */
+html {
+   scroll-behavior: smooth;
+   overflow-x: hidden;
+   overflow-y: scroll;
+}
+
+body{
+   background: #FAFAFA;
+}
