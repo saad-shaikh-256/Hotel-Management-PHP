@@ -1,0 +1,55 @@
+@import url(Common.css);
+
+body {
+   display: flex;
+   color: #fafafa;
+}
+
+.Box1 {
+   background-color: aquamarine;
+   height: 100vh;
+   width: 50vw;
+}
+
+.Box2 {
+   background-image: url("Materials/Images/Login Image.svg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+   width: 50vw;
+   display: flex;
+   justify-content: center;
+   align-items: end;
+}
+
+.Box2 .content {
+   margin-bottom: 5%;
+   width: 80%;
+   height: auto;
+   padding: 3%;
+   background-color: rgba(189, 189, 189, 0.19);
+   border: solid 1px rgba(189, 189, 189, 0.11);
+   backdrop-filter: blur(12.6px);
+   border-radius: 1rem;
+}
+
+.Box2 .lorem {
+   justify-content: start;
+   align-items: center;
+   height: 50%;
+   margin-bottom: 2%;
+}
+
+.Box2 .lorem .content-heading {
+   font-family: 'Poppins-semiBold';
+   font-size: 2.25rem;
+   width: fit-content;
+   margin-bottom: 2%;
+}
+
+.Box2 .lorem .content-paragraph {
+   font-family: 'Poppins-medium';
+   font-size: 1.25rem;
+   text-align: justify;
+   width: fit-content;
+}
