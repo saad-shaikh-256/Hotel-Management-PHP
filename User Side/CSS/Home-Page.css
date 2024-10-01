@@ -20,12 +20,11 @@ body {
    padding-top: 2vh;
    height: 100vh;
    width: 100vw;
-   background: #131315;
    background-image: url("../../Assets/Images/UserSide/Home-Bg.svg");
    background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
-
+   color: white;
 }
 
 .header .box {
@@ -34,10 +33,11 @@ body {
    position: absolute;
    z-index: 0;
    top: 0;
-   background: linear-gradient(90deg, rgba(6, 6, 6, 0.648) 0%, transparent 100%);
+   background: linear-gradient(90deg, rgba(15, 21, 79, 0.7) 30%, transparent 100%);
 }
 
 .header .nav {
+   top: 0;
    height: 8vh;
    width: 80vw;
    display: flex;
@@ -48,7 +48,7 @@ body {
    padding: 1vh 2vw;
    padding-top: 2vh;
    margin: auto;
-   z-index: 10 ;
+   z-index: 10;
    position: relative;
 }
 
@@ -105,10 +105,10 @@ body {
    height: 2vh;
    cursor: pointer;
    display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-      flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   flex-direction: row;
 }
 
 .Social .CTA {
@@ -124,9 +124,72 @@ body {
    font-weight: 500;
    cursor: pointer;
 }
-.CTA a:hover{
+
+.CTA a:hover {
    color: #000;
    font-weight: 600;
    background-color: #fff;
    transition: 1s;
+}
+
+.header .content {
+   height: fit-content;
+   width: 80vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: start;
+   flex-wrap: wrap;
+   padding: 2vh 2vw;
+   margin: auto;
+   top: 10%;
+   z-index: 10;
+   position: relative;
+   gap: 8vh;
+}
+
+.content .welcome {
+   font-size: 15px;
+   font-weight: 800px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+}
+
+.content .heading {
+   width: 70%;
+   height: fit-content;
+   font-size: 64px;
+   letter-spacing: 2px;
+   font-weight: bold;
+}
+
+.content .subText {
+   width: 50%;
+   height: fit-content;
+   font-size: 16px;
+   font-weight: 500;
+   text-wrap: wrap;
+}
+
+.content .exploreMore {
+   width: fit-content;
+   height: fit-content;
+   font-size: 16px;
+   font-weight: 500;
+   text-wrap: wrap;
+   padding: 15px 23px;
+   border: none;
+   background-color: white;
+   color: #131315;
+   border-radius: 1vh;
+   letter-spacing: 1.2px;
+
+   &:hover {
+      border: 1.3px solid white;
+      background-color: transparent;
+      color: white;
+      border-radius: 1vh;
+      letter-spacing: 1.2px;
+      transition: 0.3s;
+   }
 }

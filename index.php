@@ -9,6 +9,7 @@
 
    <!-- CSS File Link -->
    <link rel="stylesheet" href="User Side\CSS\Home-Page.css">
+   <meta http-equiv="refresh" content="1" />
 </head>
 
 <body>
@@ -35,6 +36,14 @@
                <a href="">Logout</a>
             </div>
          </div>
+      </div>
+      <div class="content">
+         <span class="welcome">welcome to</span>
+         <span class="heading">Hotel Paradise Ahmedabad India</span>
+         <span class="subText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam nihil rem maxime praesentium quo magni illo fugit animi harum.</span>
+         <span class="exploreMore">
+            Explore More
+         </span>
       </div>
    </div>
 </body>
