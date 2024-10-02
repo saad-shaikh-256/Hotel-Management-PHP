@@ -6,6 +6,7 @@
    scroll-behavior: smooth;
    box-sizing: border-box;
    transition: .5s;
+   overflow-wrap: break-word;
 }
 
 body {
@@ -853,7 +854,7 @@ body {
       flex-wrap: wrap;
       padding: 2vh 2vw;
       margin: auto;
-      top: 20%;
+      top: 10%;
       z-index: 10;
       position: relative;
       gap: 4vh;

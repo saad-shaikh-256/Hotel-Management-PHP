@@ -10,7 +10,7 @@
 
    <!-- CSS File Link -->
    <link rel="stylesheet" href="User Side\CSS\Home-Page.css">
-   <meta http-equiv="refresh" content="1" />
+   <!-- <meta http-equiv="refresh" content="1" /> -->
 </head>
 
 <body>
