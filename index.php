@@ -10,7 +10,7 @@
 
    <!-- CSS File Link -->
    <link rel="stylesheet" href="User Side\CSS\Home-Page.css">
-   <!-- <meta http-equiv="refresh" content="1" /> -->
+   <!-- <meta http-equiv="refresh" content="1" />l -->
 </head>
 
 <body>
@@ -29,9 +29,9 @@
          </div>
          <div class="Social-CTA">
             <div class="Social">
-               <a href="#"><img src="Assets\Icons\Twitter.svg" alt="Twitter"></a>
-               <a href="#"><img src="Assets\Icons\Facebook.svg" alt="Facebook"></a>
-               <a href="#"><img src="Assets\Icons\Instagram.svg" alt="Instagram"></a>
+               <a href="https://x.com/saad_shaikh_256" target="_blank"><img src="Assets\Icons\Twitter.svg" alt="Twitter"></a>
+               <a href="https://www.facebook.com/saad.shaikh.256" target="_blank"><img src="Assets\Icons\Facebook.svg" alt="Facebook"></a>
+               <a href="https://www.instagram.com/saad.shaikh.256/" target="_blank"><img src="Assets\Icons\Instagram.svg" alt="Instagram"></a>
             </div>
             <div class="CTA">
                <a href="">Logout</a>
@@ -50,8 +50,30 @@
          </span>
       </div>
    </section>
-   <section class="aboutUs">
 
+
+   <section class="aboutUs">
+      <div class="aboutText">
+         <div class="Title">
+            <div class="text">About us</div>
+            <hr>
+         </div>
+         <div class="heading">
+            <span>Welcome to</span>
+            <span>Hotel Paradise</span>
+         </div>
+         <div class="subText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque assumenda incidunt id cum. Fugiat repellat cumque delectus, at ipsum ad iure explicabo perferendis voluptatem vero quibusdam, pariatur molestiae quae in.</div>
+         <div class="subText2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque assumenda incidunt id cum. Fugiat repellat cumque delectus, at ipsum ad iure explicabo perferendis voluptatem vero quibusdam, pariatur molestiae quae in.</div>
+         <div class="exploreMore">
+            <a href="">Discover More</a>
+         </div>
+      </div>
+      <div class="aboutImg">
+         <div class="imgSquare bottom-right"><img src="Assets\Images\UserSide\about-1.jpg" alt="About Image" class="aboutImg1"></div>
+         <div class="imgSquare bottom-left "><img src="Assets\Images\UserSide\about-2.jpg" alt="About Image" class="aboutImg2"></div>
+         <div class="imgSquare top-right"><img src="Assets\Images\UserSide\about-3.jpg" alt="About Image" class="aboutImg3"></div>
+         <div class="imgSquare top-left"><img src="Assets\Images\UserSide\about-4.jpg" alt="About Image" class="aboutImg4"></div>
+      </div>
    </section>
 </body>
 

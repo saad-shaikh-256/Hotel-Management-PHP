@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+:root {
+
+   --primary-color: #3e48a8;
+   --white-color: #fff;
+   --black-color: #131315;
+}
+
 * {
    margin: 0;
    padding: 0;
@@ -10,11 +17,11 @@
 }
 
 body {
-   background-color: rgb(247, 246, 254);
+   background-color: #f7f6fe;
    overflow-x: hidden;
    width: 100vw;
    height: 100vh;
-   color: #131315;
+   color: var(--black-color);
    font-family: "Poppins", sans-serif;
 }
 
@@ -26,7 +33,7 @@ body {
    background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
-   color: white;
+   color: var(--white-color);
 }
 
 
@@ -36,7 +43,7 @@ body {
    position: absolute;
    z-index: 0;
    top: 0;
-   background: linear-gradient(90deg, rgba(15, 21, 79, 0.7) 30%, rgba(15, 21, 79, 0.2)100%);
+   background: linear-gradient(90deg, #0f154fb3 30%, rgba(15, 21, 79, 0.2)100%);
 }
 
 @media (max-width: 480px) {
@@ -47,7 +54,7 @@ body {
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
-      color: white;
+      color: var(--white-color);
    }
 
    .header .box {
@@ -68,7 +75,7 @@ body {
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
-      color: white;
+      color: var(--white-color);
    }
 
    .header .box {
@@ -89,7 +96,7 @@ body {
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
-      color: white;
+      color: var(--white-color);
    }
 
    .header .box {
@@ -110,7 +117,7 @@ body {
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
-      color: white;
+      color: var(--white-color);
    }
 
    .header .box {
@@ -131,7 +138,7 @@ body {
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
-      color: white;
+      color: var(--white-color);
    }
 
    .header .box {
@@ -152,7 +159,7 @@ body {
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
-      color: white;
+      color: var(--white-color);
    }
 
    .header .box {
@@ -173,7 +180,7 @@ body {
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
-      color: white;
+      color: var(--white-color);
    }
 
    .header .box {
@@ -356,7 +363,7 @@ body {
    all: unset;
    font-size: 15px;
    font-weight: 600;
-   color: #fff;
+   color: var(--white-color);
    cursor: pointer;
 }
 
@@ -468,7 +475,7 @@ body {
       all: unset;
       font-size: 15px;
       font-weight: 600;
-      color: #fff;
+      color: var(--white-color);
       cursor: pointer;
    }
 }
@@ -501,7 +508,7 @@ body {
       all: unset;
       font-size: 15px;
       font-weight: 600;
-      color: #fff;
+      color: var(--white-color);
       cursor: pointer;
    }
 }
@@ -534,7 +541,7 @@ body {
       all: unset;
       font-size: 15px;
       font-weight: 600;
-      color: #fff;
+      color: var(--white-color);
       cursor: pointer;
    }
 }
@@ -572,10 +579,10 @@ body {
 }
 
 .CTA a {
-   color: #fff;
+   color: var(--white-color);
    text-decoration: none;
    padding: 1vh 1.25vw;
-   border: 1px solid white;
+   border: 1px solid var(--white-color);
    border-radius: 1vh;
    font-weight: 500;
    cursor: pointer;
@@ -584,7 +591,7 @@ body {
 .CTA a:hover {
    color: #000;
    font-weight: 600;
-   background-color: #fff;
+   background-color: var(--white-color);
    transition: 1s;
 }
 
@@ -649,10 +656,10 @@ body {
    }
 
    .CTA a {
-      color: #fff;
+      color: var(--white-color);
       text-decoration: none;
       padding: 0.70vh 1.5vw;
-      border: 1px solid white;
+      border: 1px solid var(--white-color);
       border-radius: .5vh;
       font-weight: 500;
       cursor: pointer;
@@ -661,7 +668,7 @@ body {
    .CTA a:hover {
       color: #000;
       font-weight: 600;
-      background-color: #fff;
+      background-color: var(--white-color);
       transition: 1s;
    }
 
@@ -704,10 +711,10 @@ body {
    }
 
    .CTA a {
-      color: #fff;
+      color: var(--white-color);
       text-decoration: none;
       padding: 0.70vh 1.5vw;
-      border: 1px solid white;
+      border: 1px solid var(--white-color);
       border-radius: .5vh;
       font-weight: 500;
       cursor: pointer;
@@ -716,7 +723,7 @@ body {
    .CTA a:hover {
       color: #000;
       font-weight: 600;
-      background-color: #fff;
+      background-color: var(--white-color);
       transition: 1s;
    }
 
@@ -760,10 +767,10 @@ body {
    }
 
    .CTA a {
-      color: #fff;
+      color: var(--white-color);
       text-decoration: none;
       padding: 0.70vh 1.5vw;
-      border: 1px solid white;
+      border: 1px solid var(--white-color);
       border-radius: .5vh;
       font-weight: 500;
       cursor: pointer;
@@ -772,7 +779,7 @@ body {
    .CTA a:hover {
       color: #000;
       font-weight: 600;
-      background-color: #fff;
+      background-color: var(--white-color);
       transition: 1s;
    }
 
@@ -828,15 +835,15 @@ body {
    text-wrap: wrap;
    padding: 15px 23px;
    border: none;
-   background-color: white;
-   color: #131315;
+   background-color: var(--white-color);
+   color: var(--black-color);
    border-radius: 1vh;
    letter-spacing: 1.2px;
 
    &:hover {
-      border: 1.3px solid white;
+      border: 1.3px solid var(--white-color);
       background-color: transparent;
-      color: white;
+      color: var(--white-color);
       border-radius: 1vh;
       letter-spacing: 1.2px;
       transition: 0.3s;
@@ -891,15 +898,15 @@ body {
       text-wrap: wrap;
       padding: 13px 21px;
       border: none;
-      background-color: white;
-      color: #131315;
+      background-color: var(--white-color);
+      color: var(--black-color);
       border-radius: 1vh;
       letter-spacing: .7px;
 
       &:hover {
-         border: 1.5px solid white;
+         border: 1.5px solid var(--white-color);
          background-color: transparent;
-         color: white;
+         color: var(--white-color);
          border-radius: 1vh;
          transition: 0.3s;
       }
@@ -955,15 +962,15 @@ body {
       text-wrap: wrap;
       padding: 13px 21px;
       border: none;
-      background-color: white;
-      color: #131315;
+      background-color: var(--white-color);
+      color: var(--black-color);
       border-radius: 1vh;
       letter-spacing: .7px;
 
       &:hover {
-         border: 1.5px solid white;
+         border: 1.5px solid var(--white-color);
          background-color: transparent;
-         color: white;
+         color: var(--white-color);
          border-radius: 1vh;
          transition: 0.3s;
       }
@@ -1019,15 +1026,15 @@ body {
       text-wrap: wrap;
       padding: 15px 23px;
       border: none;
-      background-color: white;
-      color: #131315;
+      background-color: var(--white-color);
+      color: var(--black-color);
       border-radius: 1vh;
       letter-spacing: .7px;
 
       &:hover {
-         border: 1.5px solid white;
+         border: 1.5px solid var(--white-color);
          background-color: transparent;
-         color: white;
+         color: var(--white-color);
          border-radius: 1vh;
          transition: 0.3s;
       }
@@ -1083,15 +1090,15 @@ body {
       text-wrap: wrap;
       padding: 15px 23px;
       border: none;
-      background-color: white;
-      color: #131315;
+      background-color: var(--white-color);
+      color: var(--black-color);
       border-radius: 1vh;
       letter-spacing: .7px;
 
       &:hover {
-         border: 1.5px solid white;
+         border: 1.5px solid var(--white-color);
          background-color: transparent;
-         color: white;
+         color: var(--white-color);
          border-radius: 1vh;
          transition: 0.3s;
       }
@@ -1146,15 +1153,15 @@ body {
       text-wrap: wrap;
       padding: 15px 23px;
       border: none;
-      background-color: white;
-      color: #131315;
+      background-color: var(--white-color);
+      color: var(--black-color);
       border-radius: 1vh;
       letter-spacing: .7px;
 
       &:hover {
-         border: 1.5px solid white;
+         border: 1.5px solid var(--white-color);
          background-color: transparent;
-         color: white;
+         color: var(--white-color);
          border-radius: 1vh;
          transition: 0.3s;
       }
@@ -1172,7 +1179,7 @@ body {
       flex-wrap: wrap;
       padding: 2vh 2vw;
       margin: auto;
-      top: 10%;
+      top: 15%;
       z-index: 10;
       position: relative;
       gap: 4vh;
@@ -1209,15 +1216,15 @@ body {
       text-wrap: wrap;
       padding: 15px 23px;
       border: none;
-      background-color: white;
-      color: #131315;
+      background-color: var(--white-color);
+      color: var(--black-color);
       border-radius: 1vh;
       letter-spacing: .7px;
 
       &:hover {
-         border: 1.5px solid white;
+         border: 1.5px solid var(--white-color);
          background-color: transparent;
-         color: white;
+         color: var(--white-color);
          border-radius: 1vh;
          transition: 0.3s;
       }
@@ -1236,7 +1243,7 @@ body {
       flex-wrap: wrap;
       padding: 2vh 2vw;
       margin: auto;
-      top: 10%;
+      top: 20%;
       z-index: 10;
       position: relative;
       gap: 4vh;
@@ -1258,7 +1265,7 @@ body {
    }
 
    .content .subText {
-      width: 70%;
+      width: 50%;
       height: fit-content;
       font-size: 17px;
       font-weight: 500;
@@ -1273,17 +1280,174 @@ body {
       text-wrap: wrap;
       padding: 15px 23px;
       border: none;
-      background-color: white;
-      color: #131315;
+      background-color: var(--white-color);
+      color: var(--black-color);
       border-radius: 1vh;
       letter-spacing: .7px;
 
       &:hover {
-         border: 1.5px solid white;
+         border: 1.5px solid var(--white-color);
          background-color: transparent;
-         color: white;
+         color: var(--white-color);
          border-radius: 1vh;
          transition: 0.3s;
       }
    }
+}
+
+.aboutUs {
+   height: 80vh;
+   width: 80vw;
+   color: var(--black-color);
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   margin: auto;
+   padding: 5vh 2vw;
+}
+
+.aboutUs .aboutText {
+   width: 45%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 3vh;
+}
+
+.aboutText .Title {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   gap: 1vw;
+}
+
+.Title .text {
+   font-size: 16px;
+   font-weight: 600;
+   text-transform: uppercase;
+   color: var(--primary-color);
+   letter-spacing: .7px;
+}
+
+.Title hr {
+   height: 4px;
+   width: 3vw;
+   background-color: var(--primary-color);
+   border-radius: 100px;
+}
+
+.aboutUs .heading {
+   display: inline-block;
+   font-size: 42px;
+   font-weight: 500;
+   color: var(--black-color);
+   letter-spacing: .2px;
+}
+
+.heading span:nth-child(2) {
+   color: var(--primary-color);
+}
+
+.aboutUs .subText {
+   font-size: 17px;
+   font-weight: 500;
+   color: var(--black-color);
+   letter-spacing: .2px;
+}
+
+.aboutUs .subText2 {
+   font-size: 17px;
+   font-weight: 400;
+   color: #7d7d7d;
+   letter-spacing: .2px;
+}
+
+.aboutUs .exploreMore a {
+   all: unset;
+   height: auto;
+   width: auto;
+   padding: 13px 23px;
+   font-size: 16px;
+   font-weight: 400;
+   border: 1.2px solid var(--primary-color);
+   color: var(--primary-color);
+   border-radius: 8px;
+
+   &:hover {
+      background-color: var(--primary-color);
+      color: var(--white-color);
+      transition: 0.5s;
+   }
+}
+
+.aboutUs .aboutImg {
+   width: 45%;
+   height: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 20px 20px;
+}
+
+.aboutImg .imgSquare {
+   width: 45%;
+   height: 50%;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.bottom-right {
+   display: flex;
+   justify-content: end;
+   align-items: end;
+}
+
+.bottom-left {
+   display: flex;
+   justify-content: start;
+   align-items: end;
+}
+
+.top-right {
+   display: flex;
+   justify-content: end;
+   align-items: start;
+}
+
+.top-left {
+   display: flex;
+   justify-content: start;
+   align-items: start;
+}
+
+.imgSquare .aboutImg1 {
+   width: 75%;
+   height: auto;
+   object-fit: cover;
+
+}
+
+.imgSquare .aboutImg2 {
+   width: 100%;
+   height: auto;
+   object-fit: cover;
+}
+
+.imgSquare .aboutImg3 {
+   width: 50%;
+   height: auto;
+   object-fit: cover;
+}
+
+.imgSquare .aboutImg4 {
+   width: 75%;
+   height: auto;
+   object-fit: cover;
 }
