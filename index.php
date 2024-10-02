@@ -45,14 +45,13 @@
          <span class="welcome">welcome to</span>
          <span class="heading">Hotel Paradise Ahmedabad India</span>
          <span class="subText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam nihil rem maxime praesentium quo magni illo fugit animi harum.</span>
-         <span class="exploreMore">
+         <a href="#AboutUs" class="exploreMore">
             Explore More
-         </span>
+         </a>
       </div>
    </section>
 
-
-   <section class="aboutUs">
+   <section class="aboutUs" id="AboutUs">
       <div class="aboutText">
          <div class="Title">
             <div class="text">About us</div>
@@ -69,10 +68,10 @@
          </div>
       </div>
       <div class="aboutImg">
-         <div class="imgSquare bottom-right"><img src="Assets\Images\UserSide\about-1.jpg" alt="About Image" class="aboutImg1"></div>
-         <div class="imgSquare bottom-left "><img src="Assets\Images\UserSide\about-2.jpg" alt="About Image" class="aboutImg2"></div>
-         <div class="imgSquare top-right"><img src="Assets\Images\UserSide\about-3.jpg" alt="About Image" class="aboutImg3"></div>
-         <div class="imgSquare top-left"><img src="Assets\Images\UserSide\about-4.jpg" alt="About Image" class="aboutImg4"></div>
+         <img src="Assets\Images\UserSide\about-1.jpg" alt="About Image">
+         <img src="Assets\Images\UserSide\about-2.jpg" alt="About Image">
+         <img src="Assets\Images\UserSide\about-3.jpg" alt="About Image">
+         <img src="Assets\Images\UserSide\about-4.jpeg" alt="About Image">
       </div>
    </section>
 </body>
