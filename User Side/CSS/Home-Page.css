@@ -2255,7 +2255,7 @@ body {
    }
 
    .stats .number {
-      width: 45%;
+      width: 40%;
       height: fit-content;
       display: flex;
       flex-direction: column;
@@ -2264,7 +2264,7 @@ body {
    }
 
    .number span:nth-child(1) {
-      font-size: 40px;
+      font-size: 32px;
       font-weight: 600;
       opacity: 0.8;
    }
@@ -2289,16 +2289,17 @@ body {
    }
 
    .stats .number {
-      width: 45%;
+      width: 40%;
       height: fit-content;
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
       align-items: center;
+      justify-content: center;
    }
 
    .number span:nth-child(1) {
-      font-size: 40px;
+      font-size: 38px;
       font-weight: 600;
       opacity: 0.8;
    }
@@ -2447,34 +2448,34 @@ body {
 
 @media (min-width: 1601px) {
    .stats {
-         width: 100vw;
-         height: fit-content;
-         display: flex;
-         flex-wrap: wrap;
-         justify-content: space-around;
-         align-items: center;
-         padding: 4vh 10vw;
-         color: var(--black-color);
-         gap: 4vh;
-      }
-   
-      .stats .number {
-         width: 20%;
-         height: fit-content;
-         display: flex;
-         flex-direction: column;
-         flex-wrap: wrap;
-         align-items: center;
-      }
-   
-      .number span:nth-child(1) {
-         font-size: 48px;
-         font-weight: 600;
-         opacity: 0.8;
-      }
-   
-      .number span:nth-child(2) {
-         font-size: 13px;
-         font-weight: 500;
-      }
+      width: 100vw;
+      height: fit-content;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      padding: 4vh 10vw;
+      color: var(--black-color);
+      gap: 4vh;
+   }
+
+   .stats .number {
+      width: 20%;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+   }
+
+   .number span:nth-child(1) {
+      font-size: 48px;
+      font-weight: 600;
+      opacity: 0.8;
+   }
+
+   .number span:nth-child(2) {
+      font-size: 13px;
+      font-weight: 500;
+   }
 }
