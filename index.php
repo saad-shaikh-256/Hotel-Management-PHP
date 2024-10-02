@@ -74,6 +74,25 @@
          <img src="Assets\Images\UserSide\about-4.jpeg" alt="About Image">
       </div>
    </section>
+   <section class="stats">
+      <div class="number">
+         <span>8</span>
+         <span>Years of Service</span>
+      </div>
+      <div class="number">
+         <span>459</span>
+         <span>Sq. Meter Area</span>
+      </div>
+      <div class="number">
+         <span>50</span>
+         <span>Nice Rooms</span>
+      </div>
+      <div class="number">
+         <span>3786</span>
+         <span>Happy Visitors</span>
+      </div>
+   </section>
+   </div>
 </body>
 
 </html>
