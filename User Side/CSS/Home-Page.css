@@ -2489,7 +2489,7 @@ body {
    flex-wrap: wrap;
    align-items: center;
    justify-content: space-between;
-   padding: 4vh 2vw 8vh 2vw;
+   padding: 4vh 2vw 16vh 2vw;
    margin: auto;
    margin-top: 4vh;
    gap: 8vh;
@@ -2555,18 +2555,17 @@ body {
 }
 
 .Rooms .card {
-   width: 30%;
+   width: 32%;
    height: auto;
    display: flex;
    flex-direction: column;
    flex-wrap: wrap;
    align-items: center;
    justify-content: center;
-   padding: 0vh 0vw 1vh 0vw;
+   padding: 0vh 0vw .5vh 0vw;
    margin: auto;
    background: #f7f6fa;
    box-shadow: 1px 5px 20px 0px #3e49a821;
-   border-radius: 16px;
    border: 1px solid #00000013;
    overflow: hidden;
 
@@ -2663,13 +2662,12 @@ body {
    display: block;
    background-color: var(--primary-color);
    font-size: 16px;
-   font-weight: 400;
+   font-weight: 500;
    color: var(--white-color);
    padding: 10px 32px;
    text-decoration: none;
    text-align: center;
    width: 100%;
-   border-radius: 6px;
 
    &:hover {
       transition: 0.5s ease-in-out;
@@ -2677,3 +2675,220 @@ body {
       font-weight: 600;
    }
 }
+
+@media only screen and (max-width: 480px) {
+   .Rooms {
+      width: 90vw;
+      margin-top: 2vh;
+      gap: 4vh;
+   }
+
+   .text>.title {
+      gap: 1vh;
+   }
+
+   .text .heading {
+      font-size: 30px;
+      font-weight: 500;
+   }
+
+   .Rooms .cards {
+      gap: 3vh;
+   }
+
+   .Rooms .card {
+      width: 90%;
+      padding: 0vh 0vw .5vh 0vw;
+   }
+
+   .Rooms .card .details {
+      gap: 1.5vh;
+      padding: 2.5vh 3.5vw;
+   }
+
+   .details .title {
+      font-size: 18px;
+   }
+
+   .detail div {
+      gap: 1vw;
+   }
+
+   .detail img {
+      height: 14px;
+      width: 14px;
+   }
+
+   .detail span {
+      font-size: 12px;
+   }
+
+   .details .description {
+      font-size: 12px;
+   }
+
+   .details .price-Details {
+      gap: 2vh;
+   }
+
+   .details .price {
+      font-size: 14px;
+      font-weight: 600;
+   }
+
+   .details .Book-btn a {
+      font-size: 14px;
+   }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+   .Rooms {
+      width: 90vw;
+      margin-top: 2vh;
+      gap: 4vh;
+   }
+
+   .text>.title {
+      gap: 1vh;
+   }
+
+   .text .heading {
+      font-size: 30px;
+      font-weight: 500;
+   }
+
+   .Rooms .cards {
+      gap: 3vh;
+   }
+
+   .Rooms .card {
+      width: 90%;
+      padding: 0vh 0vw .5vh 0vw;
+   }
+
+   .Rooms .card .details {
+      gap: 1.5vh;
+      padding: 2.5vh 3.5vw;
+   }
+
+   .details .title {
+      font-size: 18px;
+   }
+
+   .detail div {
+      gap: 1vw;
+   }
+
+   .detail img {
+      height: 14px;
+      width: 14px;
+   }
+
+   .detail span {
+      font-size: 12px;
+   }
+
+   .details .description {
+      font-size: 12px;
+   }
+
+   .details .price-Details {
+      gap: 2vh;
+   }
+
+   .details .price {
+      font-size: 14px;
+      font-weight: 600;
+   }
+
+   .details .Book-btn a {
+      font-size: 14px;
+   }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+
+   .Rooms {
+      width: 80vw;
+      margin-top: 4vh;
+      gap: 6vh;
+   }
+
+   .text>.title {
+      gap: 2vh;
+   }
+
+   .text>.title>hr {
+      height: 4px;
+      width: 5vw;
+   }
+
+   .text>.title>span {
+      font-size: 16px;
+      font-weight: 600;
+   }
+
+   .text .heading {
+      font-size: 34px;
+      font-weight: 500;
+   }
+
+   .Rooms .cards {
+      gap: 4vh;
+   }
+
+   .Rooms .card {
+      width: 100%;
+      padding: 0vh 0vw .5vh 0vw;
+   }
+
+   .Rooms .card .details {
+      gap: 1.5vh;
+      padding: 2.5vh 3.5vw;
+   }
+
+   .details .title {
+      font-size: 18px;
+   }
+
+   .detail div {
+      gap: 1vw;
+   }
+
+   .image {
+      width: 100%;
+   }
+   .detail img {
+      height: 16px;
+      width: 16px;
+   }
+
+   .detail span {
+      font-size: 14px;
+   }  
+
+   .details .description {
+      font-size: 14px;
+   }
+
+   .details .price-Details {
+      gap: 2vh;
+   }
+
+   .details .price {
+      font-size: 16px;
+      font-weight: 600;
+   }
+
+   .details .Book-btn a {
+      font-size: 14px;
+   }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {}
+
+@media (min-width: 993px) and (max-width: 1200px) {}
+
+@media (min-width: 1201px) and (max-width: 1600px) {}
+
+@media (min-width: 1601px) {}

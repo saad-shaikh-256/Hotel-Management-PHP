@@ -21,8 +21,8 @@
             <img src="Assets\Logo\Logo.svg" alt="Logo">
             <div class="links">
                <a href="#Home">Home</a>
+               <a href="#AboutUs">About</a>
                <a href="#Room">Rooms</a>
-               <a href="#">Things To Do</a>
                <a href="#">Services</a>
                <a href="#">Contact</a>
             </div>
