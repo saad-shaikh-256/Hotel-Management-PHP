@@ -47,7 +47,7 @@ body {
 
 @media (max-width: 480px) {
    .header {
-      height: 100vh;
+      height: 90vh;
       width: 100vw;
       background-image: url("../../Assets/Images/UserSide/Home-Bg.svg");
       background-position: center center;
@@ -57,7 +57,7 @@ body {
    }
 
    .header .box {
-      height: 100vh;
+      height: 90vh;
       width: 100vw;
       position: absolute;
       z-index: 0;
@@ -856,7 +856,7 @@ body {
       flex-wrap: wrap;
       padding: 2vh 2vw;
       margin: auto;
-      top: 10%;
+      top: 20%;
       z-index: 10;
       position: relative;
       gap: 4vh;
@@ -872,7 +872,7 @@ body {
    .content .heading {
       width: 90%;
       height: fit-content;
-      font-size: 42px;
+      font-size: 36px;
       letter-spacing: 1.5px;
       font-weight: 700;
    }
@@ -2477,5 +2477,203 @@ body {
    .number span:nth-child(2) {
       font-size: 13px;
       font-weight: 500;
+   }
+}
+
+.Rooms {
+   width: 80vw;
+   height: auto;
+   color: var(--black-color);
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+   padding: 4vh 2vw 8vh 2vw;
+   margin: auto;
+   margin-top: 4vh;
+   gap: 8vh;
+}
+
+.Rooms>.text {
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-items: center;
+   margin: auto;
+   gap: 2vh;
+}
+
+.text>.title {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+   gap: 4vh;
+}
+
+.text>.title>hr {
+   height: 4px;
+   width: 4vw;
+   background-color: var(--primary-color);
+   border-radius: 100px;
+}
+
+.text>.title>span {
+   font-size: 16px;
+   font-weight: 600;
+   text-transform: uppercase;
+   color: var(--primary-color);
+   letter-spacing: .7px;
+}
+
+.text .heading {
+   display: inline-block;
+   font-size: 42px;
+   font-weight: 600;
+   color: var(--black-color);
+   letter-spacing: .2px;
+}
+
+.heading span:nth-child(2) {
+   color: var(--primary-color);
+}
+
+.Rooms .cards {
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+   margin: auto;
+}
+
+.Rooms .card {
+   width: 30%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   padding: 0vh 0vw 1vh 0vw;
+   margin: auto;
+   background: #f7f6fa;
+   box-shadow: 1px 5px 20px 0px #3e49a821;
+   border-radius: 16px;
+   border: 1px solid #00000013;
+   overflow: hidden;
+
+   &:hover {
+      transition: 0.5s ease-in-out;
+      scale: 1.05;
+   }
+}
+
+.Rooms .card>image {
+   width: 100%;
+   height: 50%;
+}
+
+.Rooms .card .image img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   transition: transform 0.3s ease;
+
+}
+
+.Rooms .card .details {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   gap: 2vh;
+   padding: 3vh 1.5vw;
+}
+
+.details .title {
+   font-size: 20px;
+   font-weight: 600;
+   color: var(--black-color);
+}
+
+.details .detail {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   gap: 2vh;
+}
+
+.detail hr {
+   width: 5px;
+}
+
+.detail div {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   gap: .5vw;
+}
+
+.detail img {
+   height: 18px;
+   width: 18px;
+}
+
+.detail span {
+   font-size: 14px;
+   opacity: .8;
+}
+
+.details .description {
+   width: 100%;
+   font-size: 16px;
+   max-lines: 2;
+   text-overflow: ellipsis;
+   opacity: .9;
+}
+
+.details .price-Details {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   gap: 4vh;
+}
+
+.details .price {
+   display: flex;
+   flex-direction: row;
+   font-size: 16px;
+   font-weight: 500;
+   opacity: .9;
+}
+
+.details .Book-btn a {
+   display: block;
+   background-color: var(--primary-color);
+   font-size: 16px;
+   font-weight: 400;
+   color: var(--white-color);
+   padding: 10px 32px;
+   text-decoration: none;
+   text-align: center;
+   width: 100%;
+   border-radius: 6px;
+
+   &:hover {
+      transition: 0.5s ease-in-out;
+      scale: 1.05;
+      font-weight: 600;
    }
 }

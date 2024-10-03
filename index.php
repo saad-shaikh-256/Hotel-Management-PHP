@@ -10,7 +10,7 @@
 
    <!-- CSS File Link -->
    <link rel="stylesheet" href="User Side\CSS\Home-Page.css">
-   <!-- <meta http-equiv="refresh" content="1" />l -->
+   <!-- <meta http-equiv="refresh" content="1" /> -->
 </head>
 
 <body>
@@ -21,7 +21,7 @@
             <img src="Assets\Logo\Logo.svg" alt="Logo">
             <div class="links">
                <a href="#Home">Home</a>
-               <a href="#">Rooms</a>
+               <a href="#Room">Rooms</a>
                <a href="#">Things To Do</a>
                <a href="#">Services</a>
                <a href="#">Contact</a>
@@ -92,7 +92,138 @@
          <span>Happy Visitors</span>
       </div>
    </section>
-   </div>
+   <section class="Rooms" id="Room">
+      <div class="text">
+         <div class="title">
+            <hr>
+            <span>Our Rooms</span>
+            <hr>
+         </div>
+         <div class="heading"><span>Explore Our</span> <span>ROOMS</span> </div>
+      </div>
+      <div class="cards">
+         <div class="card">
+            <div class="image">
+               <img src="Assets\Images\UserSide\room-1.jpg" alt="Room Image">
+            </div>
+            <div class="details">
+               <div class="title">
+                  Junior Suite
+               </div>
+               <div class="detail">
+                  <div>
+                     <img src="Assets\Icons\UserSide\bed.svg" alt="Bed Icon">
+                     <span>3 Beds</span>
+                  </div>
+                  <hr>
+                  <div>
+                     <img src="Assets\Icons\UserSide\bath.svg" alt="Bath Icon">
+                     <span>2 Bath</span>
+                  </div>
+                  <hr>
+                  <div>
+                     <img src="Assets\Icons\UserSide\wifi.svg" alt="Wifi Icon">
+                     <span>Wifi</span>
+
+                  </div>
+               </div>
+               <div class="description">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia dolorem amet .
+               </div>
+               <div class="price-Details">
+                  <div class="price">
+                     <span>$50</span>
+                     <span>/ per Night</span>
+                  </div>
+                  <div class="Book-btn">
+                     <a href="">Book Now</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="card">
+            <div class="image">
+               <img src="Assets\Images\UserSide\room-2.jpg" alt="Room Image">
+            </div>
+            <div class="details">
+               <div class="title">
+                  Executive Suite
+               </div>
+               <div class="detail">
+                  <div>
+                     <img src="Assets\Icons\UserSide\bed.svg" alt="Bed Icon">
+                     <span>5 Beds</span>
+                  </div>
+                  <hr>
+                  <div>
+                     <img src="Assets\Icons\UserSide\bath.svg" alt="Bath Icon">
+                     <span>3 Bath</span>
+                  </div>
+                  <hr>
+                  <div>
+                     <img src="Assets\Icons\UserSide\wifi.svg" alt="Wifi Icon">
+                     <span>Wifi</span>
+
+                  </div>
+               </div>
+               <div class="description">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia dolorem amet .
+               </div>
+               <div class="price-Details">
+                  <div class="price">
+                     <span>$100</span>
+                     <span>/ per Night</span>
+                  </div>
+                  <div class="Book-btn">
+                     <a href="">Book Now</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="card">
+            <div class="image">
+               <img src="Assets\Images\UserSide\room-3.jpg" alt="Room Image">
+            </div>
+            <div class="details">
+               <div class="title">
+                  Super Deluxe
+               </div>
+               <div class="detail">
+                  <div>
+                     <img src="Assets\Icons\UserSide\bed.svg" alt="Bed Icon">
+                     <span>7 Beds</span>
+                  </div>
+                  <hr>
+                  <div>
+                     <img src="Assets\Icons\UserSide\bath.svg" alt="Bath Icon">
+                     <span>5 Bath</span>
+                  </div>
+                  <hr>
+                  <div>
+                     <img src="Assets\Icons\UserSide\wifi.svg" alt="Wifi Icon">
+                     <span>Wifi</span>
+
+                  </div>
+               </div>
+               <div class="description">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia dolorem amet .
+               </div>
+               <div class="price-Details">
+                  <div class="price">
+                     <span>$100</span>
+                     <span>/ per Night</span>
+                  </div>
+                  <div class="Book-btn">
+                     <a href="">Book Now</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+   </section>
 </body>
 
 </html>
