@@ -19,16 +19,16 @@
 body {
    background-color: #f7f6fe;
    overflow-x: hidden;
-   width: 100vw;
-   height: 100vh;
+   width: 100dvw;
+   height: 100dvh;
    color: var(--black-color);
    font-family: "Poppins", sans-serif;
 }
 
 .header {
-   padding-top: 2vh;
-   height: 100vh;
-   width: 100vw;
+   padding-top: 2dvh;
+   height: 100dvh;
+   width: 100dvw;
    background-image: url("../../Assets/Images/UserSide/Home-Bg.svg");
    background-position: center center;
    background-repeat: no-repeat;
@@ -37,8 +37,8 @@ body {
 }
 
 .header .box {
-   height: 100vh;
-   width: 100vw;
+   height: 100dvh;
+   width: 100dvw;
    position: absolute;
    z-index: 0;
    top: 0;
@@ -47,8 +47,8 @@ body {
 
 @media (max-width: 480px) {
    .header {
-      height: 90vh;
-      width: 100vw;
+      height: 90dvh;
+      width: 100dvw;
       background-image: url("../../Assets/Images/UserSide/Home-Bg.svg");
       background-position: center center;
       background-repeat: no-repeat;
@@ -57,8 +57,8 @@ body {
    }
 
    .header .box {
-      height: 90vh;
-      width: 100vw;
+      height: 90dvh;
+      width: 100dvw;
       position: absolute;
       z-index: 0;
       top: 0;
@@ -68,8 +68,8 @@ body {
 
 @media (min-width: 481px) and (max-width: 600px) {
    .header {
-      height: 100vh;
-      width: 100vw;
+      height: 100dvh;
+      width: 100dvw;
       background-image: url("../../Assets/Images/UserSide/Home-Bg.svg");
       background-position: center center;
       background-repeat: no-repeat;
@@ -78,8 +78,8 @@ body {
    }
 
    .header .box {
-      height: 100vh;
-      width: 100vw;
+      height: 100dvh;
+      width: 100dvw;
       position: absolute;
       z-index: 0;
       top: 0;
@@ -89,8 +89,8 @@ body {
 
 @media (min-width: 601px) and (max-width: 768px) {
    .header {
-      height: 100vh;
-      width: 100vw;
+      height: 100dvh;
+      width: 100dvw;
       background-image: url("../../Assets/Images/UserSide/Home-Bg.svg");
       background-position: center center;
       background-repeat: no-repeat;
@@ -99,8 +99,8 @@ body {
    }
 
    .header .box {
-      height: 100vh;
-      width: 100vw;
+      height: 100dvh;
+      width: 100dvw;
       position: absolute;
       z-index: 0;
       top: 0;
@@ -110,8 +110,8 @@ body {
 
 @media (min-width: 769px) and (max-width: 992px) {
    .header {
-      height: 100vh;
-      width: 100vw;
+      height: 100dvh;
+      width: 100dvw;
       background-image: url("../../Assets/Images/UserSide/Home-Bg.svg");
       background-position: center center;
       background-repeat: no-repeat;
@@ -120,8 +120,8 @@ body {
    }
 
    .header .box {
-      height: 100vh;
-      width: 100vw;
+      height: 100dvh;
+      width: 100dvw;
       position: absolute;
       z-index: 0;
       top: 0;
@@ -131,8 +131,8 @@ body {
 
 @media (min-width: 993px) and (max-width: 1200px) {
    .header {
-      height: 100vh;
-      width: 100vw;
+      height: 100dvh;
+      width: 100dvw;
       background-image: url("../../Assets/Images/UserSide/Home-Bg.svg");
       background-position: center center;
       background-repeat: no-repeat;
@@ -141,8 +141,8 @@ body {
    }
 
    .header .box {
-      height: 100vh;
-      width: 100vw;
+      height: 100dvh;
+      width: 100dvw;
       position: absolute;
       z-index: 0;
       top: 0;
@@ -152,8 +152,8 @@ body {
 
 @media (min-width: 1201px) and (max-width: 1600px) {
    .header {
-      height: 100vh;
-      width: 100vw;
+      height: 100dvh;
+      width: 100dvw;
       background-image: url("../../Assets/Images/UserSide/Home-Bg.svg");
       background-position: center center;
       background-repeat: no-repeat;
@@ -162,8 +162,8 @@ body {
    }
 
    .header .box {
-      height: 100vh;
-      width: 100vw;
+      height: 100dvh;
+      width: 100dvw;
       position: absolute;
       z-index: 0;
       top: 0;
@@ -173,8 +173,8 @@ body {
 
 @media (min-width: 1601px) {
    .header {
-      height: 100vh;
-      width: 100vw;
+      height: 100dvh;
+      width: 100dvw;
       background-image: url("../../Assets/Images/UserSide/Home-Bg.svg");
       background-position: center center;
       background-repeat: no-repeat;
@@ -183,8 +183,8 @@ body {
    }
 
    .header .box {
-      height: 100vh;
-      width: 100vw;
+      height: 100dvh;
+      width: 100dvw;
       position: absolute;
       z-index: 0;
       top: 0;
@@ -194,15 +194,15 @@ body {
 
 .header .nav {
    top: 0;
-   height: 8vh;
-   width: 80vw;
+   height: 8dvh;
+   width: 80dvw;
    display: flex;
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
    flex-wrap: wrap;
-   padding: 1vh 2vw;
-   padding-top: 2vh;
+   padding: 1dvh 2dvw;
+   padding-top: 2dvh;
    margin: auto;
    z-index: 10;
    position: relative;
@@ -211,126 +211,126 @@ body {
 @media only screen and (max-width: 480px) {
    .header .nav {
       top: 0;
-      height: 8vh;
+      height: 8dvh;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
-      padding: 1vh 2vw;
-      padding-top: 2vh;
+      padding: 1dvh 2dvw;
+      padding-top: 2dvh;
       margin: auto;
       z-index: 10;
       position: relative;
-      width: 95vw;
+      width: 95dvw;
    }
 }
 
 @media (min-width: 481px) and (max-width: 600px) {
    .header .nav {
       top: 0;
-      height: 8vh;
+      height: 8dvh;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
-      padding: 1vh 2vw;
-      padding-top: 2vh;
+      padding: 1dvh 2dvw;
+      padding-top: 2dvh;
       margin: auto;
       z-index: 10;
       position: relative;
-      width: 95vw;
+      width: 95dvw;
    }
 }
 
 @media (min-width: 601px) and (max-width: 768px) {
    .header .nav {
       top: 0;
-      height: 8vh;
+      height: 8dvh;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
-      padding: 1vh 2vw;
-      padding-top: 2vh;
+      padding: 1dvh 2dvw;
+      padding-top: 2dvh;
       margin: auto;
       z-index: 10;
       position: relative;
-      width: 95vw;
+      width: 95dvw;
    }
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
    .header .nav {
       top: 0;
-      height: 8vh;
+      height: 8dvh;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
-      padding: 1vh 2vw;
-      padding-top: 2vh;
+      padding: 1dvh 2dvw;
+      padding-top: 2dvh;
       margin: auto;
       z-index: 10;
       position: relative;
-      width: 95vw;
+      width: 95dvw;
    }
 }
 
 @media (min-width: 993px) and (max-width: 1200px) {
    .header .nav {
       top: 0;
-      height: 8vh;
+      height: 8dvh;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
-      padding: 1vh 2vw;
-      padding-top: 2vh;
+      padding: 1dvh 2dvw;
+      padding-top: 2dvh;
       margin: auto;
       z-index: 10;
       position: relative;
-      width: 95vw;
+      width: 95dvw;
    }
 }
 
 @media (min-width: 1201px) and (max-width: 1600px) {
    .header .nav {
       top: 0;
-      height: 8vh;
+      height: 8dvh;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
-      padding: 1vh 2vw;
-      padding-top: 2vh;
+      padding: 1dvh 2dvw;
+      padding-top: 2dvh;
       margin: auto;
       z-index: 10;
       position: relative;
-      width: 80vw;
+      width: 80dvw;
    }
 }
 
 @media (min-width: 1601px) {
    .header .nav {
       top: 0;
-      height: 8vh;
+      height: 8dvh;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
-      padding: 1vh 2vw;
-      padding-top: 2vh;
+      padding: 1dvh 2dvw;
+      padding-top: 2dvh;
       margin: auto;
       z-index: 10;
       position: relative;
-      width: 80vw;
+      width: 80dvw;
    }
 }
 
@@ -340,7 +340,7 @@ body {
    align-items: center;
    flex-wrap: wrap;
    flex-direction: row;
-   gap: 4vw;
+   gap: 4dvw;
 }
 
 .logo-links img {
@@ -354,7 +354,7 @@ body {
    align-items: center;
    flex-wrap: wrap;
    flex-direction: row;
-   gap: 2vw;
+   gap: 2dvw;
 }
 
 .logo-links a {
@@ -372,7 +372,7 @@ body {
       align-items: center;
       flex-wrap: wrap;
       flex-direction: row;
-      gap: 4vw;
+      gap: 4dvw;
    }
 
    .logo-links img {
@@ -392,7 +392,7 @@ body {
       align-items: center;
       flex-wrap: wrap;
       flex-direction: row;
-      gap: 4vw;
+      gap: 4dvw;
    }
 
    .logo-links img {
@@ -412,7 +412,7 @@ body {
       align-items: center;
       flex-wrap: wrap;
       flex-direction: row;
-      gap: 4vw;
+      gap: 4dvw;
    }
 
    .logo-links img {
@@ -432,7 +432,7 @@ body {
       align-items: center;
       flex-wrap: wrap;
       flex-direction: row;
-      gap: 4vw;
+      gap: 4dvw;
    }
 
    .logo-links img {
@@ -452,7 +452,7 @@ body {
       align-items: center;
       flex-wrap: wrap;
       flex-direction: row;
-      gap: 4vw;
+      gap: 4dvw;
    }
 
    .logo-links img {
@@ -466,7 +466,7 @@ body {
       align-items: center;
       flex-wrap: wrap;
       flex-direction: row;
-      gap: 2vw;
+      gap: 2dvw;
    }
 
    .logo-links a {
@@ -485,7 +485,7 @@ body {
       align-items: center;
       flex-wrap: wrap;
       flex-direction: row;
-      gap: 4vw;
+      gap: 4dvw;
    }
 
    .logo-links img {
@@ -499,7 +499,7 @@ body {
       align-items: center;
       flex-wrap: wrap;
       flex-direction: row;
-      gap: 2vw;
+      gap: 2dvw;
    }
 
    .logo-links a {
@@ -518,7 +518,7 @@ body {
       align-items: center;
       flex-wrap: wrap;
       flex-direction: row;
-      gap: 4vw;
+      gap: 4dvw;
    }
 
    .logo-links img {
@@ -532,7 +532,7 @@ body {
       align-items: center;
       flex-wrap: wrap;
       flex-direction: row;
-      gap: 2vw;
+      gap: 2dvw;
    }
 
    .logo-links a {
@@ -550,7 +550,7 @@ body {
    align-items: center;
    flex-wrap: wrap;
    flex-direction: row;
-   gap: 2vw;
+   gap: 2dvw;
 }
 
 .Social-CTA .Social {
@@ -559,11 +559,11 @@ body {
    align-items: center;
    flex-wrap: wrap;
    flex-direction: row;
-   gap: 1vw;
+   gap: 1dvw;
 }
 
 .Social img {
-   height: 2vh;
+   height: 2dvh;
    cursor: pointer;
    display: flex;
    justify-content: center;
@@ -579,9 +579,9 @@ body {
 .CTA a {
    color: var(--white-color);
    text-decoration: none;
-   padding: 1vh 1.25vw;
+   padding: 1dvh 1.25dvw;
    border: 1px solid var(--white-color);
-   border-radius: 1vh;
+   border-radius: 1dvh;
    font-weight: 500;
    cursor: pointer;
 }
@@ -624,7 +624,7 @@ body {
       align-items: center;
       flex-wrap: wrap;
       flex-direction: row;
-      gap: 4vw;
+      gap: 4dvw;
    }
 
    .Social-CTA .Social {
@@ -633,11 +633,11 @@ body {
       align-items: center;
       flex-wrap: wrap;
       flex-direction: row;
-      gap: 1vw;
+      gap: 1dvw;
    }
 
    .Social img {
-      height: 1.5vh;
+      height: 1.5dvh;
       cursor: pointer;
       display: flex;
       justify-content: center;
@@ -653,9 +653,9 @@ body {
    .CTA a {
       color: var(--white-color);
       text-decoration: none;
-      padding: 0.70vh 1.5vw;
+      padding: 0.70dvh 1.5dvw;
       border: 1px solid var(--white-color);
-      border-radius: .5vh;
+      border-radius: .5dvh;
       font-weight: 500;
       cursor: pointer;
    }
@@ -679,7 +679,7 @@ body {
       align-items: center;
       flex-wrap: wrap;
       flex-direction: row;
-      gap: 3vw;
+      gap: 3dvw;
    }
 
    .Social-CTA .Social {
@@ -688,11 +688,11 @@ body {
       align-items: center;
       flex-wrap: wrap;
       flex-direction: row;
-      gap: 1vw;
+      gap: 1dvw;
    }
 
    .Social img {
-      height: 1.5vh;
+      height: 1.5dvh;
       cursor: pointer;
       display: flex;
       justify-content: center;
@@ -708,9 +708,9 @@ body {
    .CTA a {
       color: var(--white-color);
       text-decoration: none;
-      padding: 0.70vh 1.5vw;
+      padding: 0.70dvh 1.5dvw;
       border: 1px solid var(--white-color);
-      border-radius: .5vh;
+      border-radius: .5dvh;
       font-weight: 500;
       cursor: pointer;
    }
@@ -734,7 +734,7 @@ body {
       align-items: center;
       flex-wrap: wrap;
       flex-direction: row;
-      gap: 3vw;
+      gap: 3dvw;
    }
 
    .Social-CTA .Social {
@@ -743,11 +743,11 @@ body {
       align-items: center;
       flex-wrap: wrap;
       flex-direction: row;
-      gap: 1vw;
+      gap: 1dvw;
    }
 
    .Social img {
-      height: 1.5vh;
+      height: 1.5dvh;
       cursor: pointer;
       display: flex;
       justify-content: center;
@@ -763,9 +763,9 @@ body {
    .CTA a {
       color: var(--white-color);
       text-decoration: none;
-      padding: 0.70vh 1.5vw;
+      padding: 0.70dvh 1.5dvw;
       border: 1px solid var(--white-color);
-      border-radius: .5vh;
+      border-radius: .5dvh;
       font-weight: 500;
       cursor: pointer;
    }
@@ -784,18 +784,18 @@ body {
 
 .header .content {
    height: fit-content;
-   width: 80vw;
+   width: 80dvw;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
    align-items: start;
    flex-wrap: wrap;
-   padding: 2vh 2vw;
+   padding: 2dvh 2dvw;
    margin: auto;
    top: 10%;
    z-index: 10;
    position: relative;
-   gap: 8vh;
+   gap: 8dvh;
 }
 
 .content .welcome {
@@ -832,14 +832,14 @@ body {
    border: none;
    background-color: var(--white-color);
    color: var(--black-color);
-   border-radius: 1vh;
+   border-radius: 1dvh;
    letter-spacing: 1.2px;
 
    &:hover {
       border: 1.3px solid var(--white-color);
       background-color: transparent;
       color: var(--white-color);
-      border-radius: 1vh;
+      border-radius: 1dvh;
       letter-spacing: 1.2px;
       transition: 0.3s;
    }
@@ -848,18 +848,18 @@ body {
 @media only screen and (max-width: 480px) {
    .header .content {
       height: fit-content;
-      width: 95vw;
+      width: 95dvw;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       align-items: start;
       flex-wrap: wrap;
-      padding: 2vh 2vw;
+      padding: 2dvh 2dvw;
       margin: auto;
       top: 20%;
       z-index: 10;
       position: relative;
-      gap: 4vh;
+      gap: 4dvh;
    }
 
    .content .welcome {
@@ -895,14 +895,14 @@ body {
       border: none;
       background-color: var(--white-color);
       color: var(--black-color);
-      border-radius: 1vh;
+      border-radius: 1dvh;
       letter-spacing: .7px;
 
       &:hover {
          border: 1.5px solid var(--white-color);
          background-color: transparent;
          color: var(--white-color);
-         border-radius: 1vh;
+         border-radius: 1dvh;
          transition: 0.3s;
       }
    }
@@ -911,18 +911,18 @@ body {
 @media (min-width: 481px) and (max-width: 600px) {
    .header .content {
       height: fit-content;
-      width: 95vw;
+      width: 95dvw;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       align-items: start;
       flex-wrap: wrap;
-      padding: 2vh 2vw;
+      padding: 2dvh 2dvw;
       margin: auto;
       top: 20%;
       z-index: 10;
       position: relative;
-      gap: 4vh;
+      gap: 4dvh;
    }
 
    .content .welcome {
@@ -958,14 +958,14 @@ body {
       border: none;
       background-color: var(--white-color);
       color: var(--black-color);
-      border-radius: 1vh;
+      border-radius: 1dvh;
       letter-spacing: .7px;
 
       &:hover {
          border: 1.5px solid var(--white-color);
          background-color: transparent;
          color: var(--white-color);
-         border-radius: 1vh;
+         border-radius: 1dvh;
          transition: 0.3s;
       }
    }
@@ -974,18 +974,18 @@ body {
 @media (min-width: 601px) and (max-width: 768px) {
    .header .content {
       height: fit-content;
-      width: 95vw;
+      width: 95dvw;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       align-items: start;
       flex-wrap: wrap;
-      padding: 2vh 2vw;
+      padding: 2dvh 2dvw;
       margin: auto;
       top: 20%;
       z-index: 10;
       position: relative;
-      gap: 4vh;
+      gap: 4dvh;
    }
 
    .content .welcome {
@@ -1021,14 +1021,14 @@ body {
       border: none;
       background-color: var(--white-color);
       color: var(--black-color);
-      border-radius: 1vh;
+      border-radius: 1dvh;
       letter-spacing: .7px;
 
       &:hover {
          border: 1.5px solid var(--white-color);
          background-color: transparent;
          color: var(--white-color);
-         border-radius: 1vh;
+         border-radius: 1dvh;
          transition: 0.3s;
       }
    }
@@ -1037,18 +1037,18 @@ body {
 @media (min-width: 769px) and (max-width: 992px) {
    .header .content {
       height: fit-content;
-      width: 90vw;
+      width: 90dvw;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       align-items: start;
       flex-wrap: wrap;
-      padding: 2vh 2vw;
+      padding: 2dvh 2dvw;
       margin: auto;
       top: 20%;
       z-index: 10;
       position: relative;
-      gap: 4vh;
+      gap: 4dvh;
    }
 
    .content .welcome {
@@ -1084,14 +1084,14 @@ body {
       border: none;
       background-color: var(--white-color);
       color: var(--black-color);
-      border-radius: 1vh;
+      border-radius: 1dvh;
       letter-spacing: .7px;
 
       &:hover {
          border: 1.5px solid var(--white-color);
          background-color: transparent;
          color: var(--white-color);
-         border-radius: 1vh;
+         border-radius: 1dvh;
          transition: 0.3s;
       }
    }
@@ -1100,18 +1100,18 @@ body {
 @media (min-width: 993px) and (max-width: 1200px) {
    .header .content {
       height: fit-content;
-      width: 90vw;
+      width: 90dvw;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       align-items: start;
       flex-wrap: wrap;
-      padding: 2vh 2vw;
+      padding: 2dvh 2dvw;
       margin: auto;
       top: 10%;
       z-index: 10;
       position: relative;
-      gap: 4vh;
+      gap: 4dvh;
    }
 
    .content .welcome {
@@ -1147,14 +1147,14 @@ body {
       border: none;
       background-color: var(--white-color);
       color: var(--black-color);
-      border-radius: 1vh;
+      border-radius: 1dvh;
       letter-spacing: .7px;
 
       &:hover {
          border: 1.5px solid var(--white-color);
          background-color: transparent;
          color: var(--white-color);
-         border-radius: 1vh;
+         border-radius: 1dvh;
          transition: 0.3s;
       }
    }
@@ -1163,18 +1163,18 @@ body {
 @media (min-width: 1201px) and (max-width: 1600px) {
    .header .content {
       height: fit-content;
-      width: 80vw;
+      width: 80dvw;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       align-items: start;
       flex-wrap: wrap;
-      padding: 2vh 2vw;
+      padding: 2dvh 2dvw;
       margin: auto;
       top: 15%;
       z-index: 10;
       position: relative;
-      gap: 4vh;
+      gap: 4dvh;
    }
 
    .content .welcome {
@@ -1210,14 +1210,14 @@ body {
       border: none;
       background-color: var(--white-color);
       color: var(--black-color);
-      border-radius: 1vh;
+      border-radius: 1dvh;
       letter-spacing: .7px;
 
       &:hover {
          border: 1.5px solid var(--white-color);
          background-color: transparent;
          color: var(--white-color);
-         border-radius: 1vh;
+         border-radius: 1dvh;
          transition: 0.3s;
       }
    }
@@ -1226,18 +1226,18 @@ body {
 @media (min-width: 1601px) {
    .header .content {
       height: fit-content;
-      width: 80vw;
+      width: 80dvw;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       align-items: start;
       flex-wrap: wrap;
-      padding: 2vh 2vw;
+      padding: 2dvh 2dvw;
       margin: auto;
       top: 20%;
       z-index: 10;
       position: relative;
-      gap: 4vh;
+      gap: 4dvh;
    }
 
    .content .welcome {
@@ -1273,22 +1273,22 @@ body {
       border: none;
       background-color: var(--white-color);
       color: var(--black-color);
-      border-radius: 1vh;
+      border-radius: 1dvh;
       letter-spacing: .7px;
 
       &:hover {
          border: 1.5px solid var(--white-color);
          background-color: transparent;
          color: var(--white-color);
-         border-radius: 1vh;
+         border-radius: 1dvh;
          transition: 0.3s;
       }
    }
 }
 
 .aboutUs {
-   height: 80vh;
-   width: 80vw;
+   height: 80dvh;
+   width: 80dvw;
    color: var(--black-color);
    display: flex;
    flex-direction: row;
@@ -1296,7 +1296,7 @@ body {
    justify-content: space-between;
    align-items: center;
    margin: auto;
-   padding: 5vh 2vw;
+   padding: 5dvh 2dvw;
 }
 
 .aboutUs .aboutText {
@@ -1306,7 +1306,7 @@ body {
    flex-direction: column;
    justify-content: center;
    flex-wrap: wrap;
-   gap: 3vh;
+   gap: 3dvh;
 }
 
 .aboutText .Title {
@@ -1314,7 +1314,7 @@ body {
    flex-direction: row;
    flex-wrap: wrap;
    align-items: center;
-   gap: 1vw;
+   gap: 1dvw;
 }
 
 .Title .text {
@@ -1327,7 +1327,7 @@ body {
 
 .Title hr {
    height: 4px;
-   width: 3vw;
+   width: 3dvw;
    background-color: var(--primary-color);
    border-radius: 100px;
 }
@@ -1401,15 +1401,15 @@ body {
 @media only screen and (max-width: 480px) {
    .aboutUs {
       height: fit-content;
-      width: 90vw;
+      width: 90dvw;
       color: var(--black-color);
       display: flex;
       flex-wrap: wrap;
       justify-content: start;
       align-items: start;
       margin: auto;
-      padding: 5vh 2vw;
-      gap: 5vh;
+      padding: 5dvh 2dvw;
+      gap: 5dvh;
    }
 
    .aboutUs .aboutText {
@@ -1419,7 +1419,7 @@ body {
       flex-direction: column;
       justify-content: center;
       flex-wrap: wrap;
-      gap: 3vh;
+      gap: 3dvh;
    }
 
    .aboutText .Title {
@@ -1427,7 +1427,7 @@ body {
       flex-direction: row;
       flex-wrap: wrap;
       align-items: center;
-      gap: 1vw;
+      gap: 1dvw;
    }
 
    .Title .text {
@@ -1440,7 +1440,7 @@ body {
 
    .Title hr {
       height: 4px;
-      width: 5vw;
+      width: 5dvw;
       background-color: var(--primary-color);
       border-radius: 100px;
    }
@@ -1515,15 +1515,15 @@ body {
 @media (min-width: 481px) and (max-width: 600px) {
    .aboutUs {
       height: fit-content;
-      width: 90vw;
+      width: 90dvw;
       color: var(--black-color);
       display: flex;
       flex-wrap: wrap;
       justify-content: start;
       align-items: start;
       margin: auto;
-      padding: 5vh 2vw;
-      gap: 5vh;
+      padding: 5dvh 2dvw;
+      gap: 5dvh;
    }
 
    .aboutUs .aboutText {
@@ -1533,7 +1533,7 @@ body {
       flex-direction: column;
       justify-content: center;
       flex-wrap: wrap;
-      gap: 4vh;
+      gap: 4dvh;
    }
 
    .aboutText .Title {
@@ -1541,7 +1541,7 @@ body {
       flex-direction: row;
       flex-wrap: wrap;
       align-items: center;
-      gap: 1vw;
+      gap: 1dvw;
    }
 
    .Title .text {
@@ -1554,7 +1554,7 @@ body {
 
    .Title hr {
       height: 4px;
-      width: 5vw;
+      width: 5dvw;
       background-color: var(--primary-color);
       border-radius: 100px;
    }
@@ -1629,15 +1629,15 @@ body {
 @media (min-width: 601px) and (max-width: 768px) {
    .aboutUs {
       height: fit-content;
-      width: 90vw;
+      width: 90dvw;
       color: var(--black-color);
       display: flex;
       flex-wrap: wrap;
       justify-content: start;
       align-items: start;
       margin: auto;
-      padding: 5vh 2vw;
-      gap: 5vh;
+      padding: 5dvh 2dvw;
+      gap: 5dvh;
    }
 
    .aboutUs .aboutText {
@@ -1647,7 +1647,7 @@ body {
       flex-direction: column;
       justify-content: center;
       flex-wrap: wrap;
-      gap: 4vh;
+      gap: 4dvh;
    }
 
    .aboutText .Title {
@@ -1655,7 +1655,7 @@ body {
       flex-direction: row;
       flex-wrap: wrap;
       align-items: center;
-      gap: 1vw;
+      gap: 1dvw;
    }
 
    .Title .text {
@@ -1668,7 +1668,7 @@ body {
 
    .Title hr {
       height: 4px;
-      width: 5vw;
+      width: 5dvw;
       background-color: var(--primary-color);
       border-radius: 100px;
    }
@@ -1743,15 +1743,15 @@ body {
 @media (min-width: 769px) and (max-width: 992px) {
    .aboutUs {
       height: fit-content;
-      width: 90vw;
+      width: 90dvw;
       color: var(--black-color);
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
       margin: auto;
-      padding: 5vh 2vw;
-      gap: 5vh;
+      padding: 5dvh 2dvw;
+      gap: 5dvh;
    }
 
    .aboutUs .aboutText {
@@ -1761,7 +1761,7 @@ body {
       flex-direction: column;
       justify-content: center;
       flex-wrap: wrap;
-      gap: 4vh;
+      gap: 4dvh;
    }
 
    .aboutText .Title {
@@ -1769,7 +1769,7 @@ body {
       flex-direction: row;
       flex-wrap: wrap;
       align-items: center;
-      gap: 1vw;
+      gap: 1dvw;
       width: 95%;
    }
 
@@ -1783,7 +1783,7 @@ body {
 
    .Title hr {
       height: 4px;
-      width: 5vw;
+      width: 5dvw;
       background-color: var(--primary-color);
       border-radius: 100px;
    }
@@ -1861,15 +1861,15 @@ body {
 @media (min-width: 993px) and (max-width: 1200px) {
    .aboutUs {
       height: fit-content;
-      width: 90vw;
+      width: 90dvw;
       color: var(--black-color);
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
       margin: auto;
-      padding: 5vh 2vw;
-      gap: 5vh;
+      padding: 5dvh 2dvw;
+      gap: 5dvh;
    }
 
    .aboutUs .aboutText {
@@ -1879,7 +1879,7 @@ body {
       flex-direction: column;
       justify-content: center;
       flex-wrap: wrap;
-      gap: 4vh;
+      gap: 4dvh;
    }
 
    .aboutText .Title {
@@ -1887,7 +1887,7 @@ body {
       flex-direction: row;
       flex-wrap: wrap;
       align-items: center;
-      gap: 1vw;
+      gap: 1dvw;
       width: 95%;
    }
 
@@ -1901,7 +1901,7 @@ body {
 
    .Title hr {
       height: 4px;
-      width: 5vw;
+      width: 5dvw;
       background-color: var(--primary-color);
       border-radius: 100px;
    }
@@ -1979,15 +1979,15 @@ body {
 @media (min-width: 1201px) and (max-width: 1600px) {
    .aboutUs {
       height: fit-content;
-      width: 90vw;
+      width: 90dvw;
       color: var(--black-color);
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
       margin: auto;
-      padding: 5vh 2vw;
-      gap: 5vh;
+      padding: 5dvh 2dvw;
+      gap: 5dvh;
    }
 
    .aboutUs .aboutText {
@@ -1997,7 +1997,7 @@ body {
       flex-direction: column;
       justify-content: center;
       flex-wrap: wrap;
-      gap: 4vh;
+      gap: 4dvh;
    }
 
    .aboutText .Title {
@@ -2005,7 +2005,7 @@ body {
       flex-direction: row;
       flex-wrap: wrap;
       align-items: center;
-      gap: 1vw;
+      gap: 1dvw;
       width: 95%;
    }
 
@@ -2019,7 +2019,7 @@ body {
 
    .Title hr {
       height: 4px;
-      width: 4vw;
+      width: 4dvw;
       background-color: var(--primary-color);
       border-radius: 100px;
    }
@@ -2096,15 +2096,15 @@ body {
 @media (min-width: 1601px) {
    .aboutUs {
       height: fit-content;
-      width: 90vw;
+      width: 90dvw;
       color: var(--black-color);
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
       margin: auto;
-      padding: 5vh 2vw;
-      gap: 5vh;
+      padding: 5dvh 2dvw;
+      gap: 5dvh;
    }
 
    .aboutUs .aboutText {
@@ -2114,7 +2114,7 @@ body {
       flex-direction: column;
       justify-content: center;
       flex-wrap: wrap;
-      gap: 4vh;
+      gap: 4dvh;
    }
 
    .aboutText .Title {
@@ -2122,7 +2122,7 @@ body {
       flex-direction: row;
       flex-wrap: wrap;
       align-items: center;
-      gap: 1vw;
+      gap: 1dvw;
       width: 95%;
    }
 
@@ -2136,7 +2136,7 @@ body {
 
    .Title hr {
       height: 4px;
-      width: 4vw;
+      width: 4dvw;
       background-color: var(--primary-color);
       border-radius: 100px;
    }
@@ -2211,13 +2211,13 @@ body {
 }
 
 .stats {
-   width: 100vw;
+   width: 100dvw;
    height: fit-content;
    display: flex;
    flex-wrap: wrap;
    justify-content: space-around;
    align-items: center;
-   padding: 4vh 10vw;
+   padding: 4dvh 10dvw;
    color: var(--black-color);
 }
 
@@ -2243,15 +2243,15 @@ body {
 
 @media only screen and (max-width: 480px) {
    .stats {
-      width: 100vw;
+      width: 100dvw;
       height: fit-content;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
       align-items: center;
-      padding: 4vh 10vw;
+      padding: 4dvh 10dvw;
       color: var(--black-color);
-      gap: 4vh;
+      gap: 4dvh;
    }
 
    .stats .number {
@@ -2277,15 +2277,15 @@ body {
 
 @media (min-width: 481px) and (max-width: 600px) {
    .stats {
-      width: 100vw;
+      width: 100dvw;
       height: fit-content;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
       align-items: center;
-      padding: 4vh 10vw;
+      padding: 4dvh 10dvw;
       color: var(--black-color);
-      gap: 4vh;
+      gap: 4dvh;
    }
 
    .stats .number {
@@ -2312,15 +2312,15 @@ body {
 
 @media (min-width: 601px) and (max-width: 768px) {
    .stats {
-      width: 100vw;
+      width: 100dvw;
       height: fit-content;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
       align-items: center;
-      padding: 4vh 10vw;
+      padding: 4dvh 10dvw;
       color: var(--black-color);
-      gap: 4vh;
+      gap: 4dvh;
    }
 
    .stats .number {
@@ -2346,15 +2346,15 @@ body {
 
 @media (min-width: 769px) and (max-width: 992px) {
    .stats {
-      width: 100vw;
+      width: 100dvw;
       height: fit-content;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
       align-items: center;
-      padding: 4vh 10vw;
+      padding: 4dvh 10dvw;
       color: var(--black-color);
-      gap: 4vh;
+      gap: 4dvh;
    }
 
    .stats .number {
@@ -2380,15 +2380,15 @@ body {
 
 @media (min-width: 993px) and (max-width: 1200px) {
    .stats {
-      width: 100vw;
+      width: 100dvw;
       height: fit-content;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
       align-items: center;
-      padding: 4vh 10vw;
+      padding: 4dvh 10dvw;
       color: var(--black-color);
-      gap: 4vh;
+      gap: 4dvh;
    }
 
    .stats .number {
@@ -2414,15 +2414,15 @@ body {
 
 @media (min-width: 1201px) and (max-width: 1600px) {
    .stats {
-      width: 100vw;
+      width: 100dvw;
       height: fit-content;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
       align-items: center;
-      padding: 4vh 10vw;
+      padding: 4dvh 10dvw;
       color: var(--black-color);
-      gap: 4vh;
+      gap: 4dvh;
    }
 
    .stats .number {
@@ -2448,15 +2448,15 @@ body {
 
 @media (min-width: 1601px) {
    .stats {
-      width: 100vw;
+      width: 100dvw;
       height: fit-content;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
       align-items: center;
-      padding: 4vh 10vw;
+      padding: 4dvh 10dvw;
       color: var(--black-color);
-      gap: 4vh;
+      gap: 4dvh;
    }
 
    .stats .number {
@@ -2481,7 +2481,7 @@ body {
 }
 
 .Rooms {
-   width: 80vw;
+   width: 80dvw;
    height: auto;
    color: var(--black-color);
    display: flex;
@@ -2489,10 +2489,10 @@ body {
    flex-wrap: wrap;
    align-items: center;
    justify-content: space-between;
-   padding: 4vh 2vw 16vh 2vw;
+   padding: 4dvh 2dvw 8dvh 2dvw;
    margin: auto;
-   margin-top: 4vh;
-   gap: 8vh;
+   margin-top: 4dvh;
+   gap: 8dvh;
 }
 
 .Rooms>.text {
@@ -2503,7 +2503,7 @@ body {
    flex-wrap: wrap;
    align-items: center;
    margin: auto;
-   gap: 2vh;
+   gap: 2dvh;
 }
 
 .text>.title {
@@ -2513,12 +2513,12 @@ body {
    align-items: center;
    justify-content: center;
    margin: auto;
-   gap: 4vh;
+   gap: 4dvh;
 }
 
 .text>.title>hr {
    height: 4px;
-   width: 4vw;
+   width: 4dvw;
    background-color: var(--primary-color);
    border-radius: 100px;
 }
@@ -2562,7 +2562,7 @@ body {
    flex-wrap: wrap;
    align-items: center;
    justify-content: center;
-   padding: 0vh 0vw .5vh 0vw;
+   padding: 0dvh 0dvw .5dvh 0dvw;
    margin: auto;
    background: #f7f6fa;
    box-shadow: 1px 5px 20px 0px #3e49a821;
@@ -2593,8 +2593,8 @@ body {
    display: flex;
    flex-direction: column;
    flex-wrap: wrap;
-   gap: 2vh;
-   padding: 3vh 1.5vw;
+   gap: 2dvh;
+   padding: 3dvh 1.5dvw;
 }
 
 .details .title {
@@ -2609,7 +2609,7 @@ body {
    flex-direction: row;
    flex-wrap: wrap;
    align-items: center;
-   gap: 2vh;
+   gap: 2dvh;
 }
 
 .detail div {
@@ -2617,7 +2617,7 @@ body {
    flex-direction: row;
    align-items: center;
    justify-content: center;
-   gap: .5vw;
+   gap: .5dvw;
 }
 
 .detail img {
@@ -2646,7 +2646,7 @@ body {
    display: flex;
    flex-direction: column;
    justify-content: space-between;
-   gap: 4vh;
+   gap: 4dvh;
 }
 
 .details .price {
@@ -2677,13 +2677,13 @@ body {
 
 @media only screen and (max-width: 480px) {
    .Rooms {
-      width: 90vw;
-      margin-top: 2vh;
-      gap: 4vh;
+      width: 90dvw;
+      margin-top: 2dvh;
+      gap: 4dvh;
    }
 
    .text>.title {
-      gap: 1vh;
+      gap: 1dvh;
    }
 
    .text .heading {
@@ -2692,17 +2692,17 @@ body {
    }
 
    .Rooms .cards {
-      gap: 3vh;
+      gap: 3dvh;
    }
 
    .Rooms .card {
       width: 90%;
-      padding: 0vh 0vw .5vh 0vw;
+      padding: 0dvh 0dvw .5dvh 0dvw;
    }
 
    .Rooms .card .details {
-      gap: 1.5vh;
-      padding: 2.5vh 3.5vw;
+      gap: 1.5dvh;
+      padding: 2.5dvh 3.5dvw;
    }
 
    .details .title {
@@ -2710,7 +2710,7 @@ body {
    }
 
    .detail div {
-      gap: 1vw;
+      gap: 1dvw;
    }
 
    .detail img {
@@ -2727,7 +2727,7 @@ body {
    }
 
    .details .price-Details {
-      gap: 2vh;
+      gap: 2dvh;
    }
 
    .details .price {
@@ -2742,13 +2742,13 @@ body {
 
 @media (min-width: 481px) and (max-width: 600px) {
    .Rooms {
-      width: 90vw;
-      margin-top: 2vh;
-      gap: 4vh;
+      width: 90dvw;
+      margin-top: 2dvh;
+      gap: 4dvh;
    }
 
    .text>.title {
-      gap: 1vh;
+      gap: 1dvh;
    }
 
    .text .heading {
@@ -2757,17 +2757,17 @@ body {
    }
 
    .Rooms .cards {
-      gap: 3vh;
+      gap: 3dvh;
    }
 
    .Rooms .card {
       width: 90%;
-      padding: 0vh 0vw .5vh 0vw;
+      padding: 0dvh 0dvw .5dvh 0dvw;
    }
 
    .Rooms .card .details {
-      gap: 1.5vh;
-      padding: 2.5vh 3.5vw;
+      gap: 1.5dvh;
+      padding: 2.5dvh 3.5dvw;
    }
 
    .details .title {
@@ -2775,7 +2775,7 @@ body {
    }
 
    .detail div {
-      gap: 1vw;
+      gap: 1dvw;
    }
 
    .detail img {
@@ -2792,7 +2792,7 @@ body {
    }
 
    .details .price-Details {
-      gap: 2vh;
+      gap: 2dvh;
    }
 
    .details .price {
@@ -2808,18 +2808,18 @@ body {
 @media (min-width: 601px) and (max-width: 768px) {
 
    .Rooms {
-      width: 80vw;
-      margin-top: 4vh;
-      gap: 6vh;
+      width: 80dvw;
+      margin-top: 4dvh;
+      gap: 6dvh;
    }
 
    .text>.title {
-      gap: 2vh;
+      gap: 2dvh;
    }
 
    .text>.title>hr {
       height: 4px;
-      width: 5vw;
+      width: 5dvw;
    }
 
    .text>.title>span {
@@ -2833,17 +2833,17 @@ body {
    }
 
    .Rooms .cards {
-      gap: 4vh;
+      gap: 4dvh;
    }
 
    .Rooms .card {
       width: 100%;
-      padding: 0vh 0vw .5vh 0vw;
+      padding: 0dvh 0dvw .5dvh 0dvw;
    }
 
    .Rooms .card .details {
-      gap: 1.5vh;
-      padding: 2.5vh 3.5vw;
+      gap: 1.5dvh;
+      padding: 2.5dvh 3.5dvw;
    }
 
    .details .title {
@@ -2851,7 +2851,7 @@ body {
    }
 
    .detail div {
-      gap: 1vw;
+      gap: 1dvw;
    }
 
    .image {
@@ -2872,7 +2872,7 @@ body {
    }
 
    .details .price-Details {
-      gap: 2vh;
+      gap: 2dvh;
    }
 
    .details .price {
@@ -2887,18 +2887,18 @@ body {
 
 @media (min-width: 769px) and (max-width: 992px) {
    .Rooms {
-      width: 80vw;
-      margin-top: 4vh;
-      gap: 6vh;
+      width: 80dvw;
+      margin-top: 4dvh;
+      gap: 6dvh;
    }
 
    .text>.title {
-      gap: 2vh;
+      gap: 2dvh;
    }
 
    .text>.title>hr {
       height: 4px;
-      width: 5vw;
+      width: 5dvw;
    }
 
    .text>.title>span {
@@ -2912,17 +2912,17 @@ body {
    }
 
    .Rooms .cards {
-      gap: 2vh;
+      gap: 2dvh;
    }
 
    .Rooms .card {
       width: 31%;
-      padding: 0vh 0vw .5vh 0vw;
+      padding: 0dvh 0dvw .5dvh 0dvw;
    }
 
    .Rooms .card .details {
-      gap: 1.5vh;
-      padding: 2vh 1.5vw;
+      gap: 1.5dvh;
+      padding: 2dvh 1.5dvw;
    }
 
    .details .title {
@@ -2934,7 +2934,7 @@ body {
    }
 
    .detail div {
-      gap: .5vw;
+      gap: .5dvw;
    }
 
    .image {
@@ -2955,7 +2955,7 @@ body {
    }
 
    .details .price-Details {
-      gap: 2vh;
+      gap: 2dvh;
    }
 
    .details .price {
@@ -2970,18 +2970,18 @@ body {
 
 @media (min-width: 993px) and (max-width: 1200px) {
    .Rooms {
-      width: 80vw;
-      margin-top: 4vh;
-      gap: 6vh;
+      width: 80dvw;
+      margin-top: 4dvh;
+      gap: 6dvh;
    }
 
    .text>.title {
-      gap: 2vh;
+      gap: 2dvh;
    }
 
    .text>.title>hr {
       height: 4px;
-      width: 5vw;
+      width: 5dvw;
    }
 
    .text>.title>span {
@@ -2995,17 +2995,17 @@ body {
    }
 
    .Rooms .cards {
-      gap: 2vh;
+      gap: 2dvh;
    }
 
    .Rooms .card {
       width: 31%;
-      padding: 0vh 0vw .5vh 0vw;
+      padding: 0dvh 0dvw .5dvh 0dvw;
    }
 
    .Rooms .card .details {
-      gap: 1.5vh;
-      padding: 2vh 1.5vw;
+      gap: 1.5dvh;
+      padding: 2dvh 1.5dvw;
    }
 
    .details .title {
@@ -3017,7 +3017,7 @@ body {
    }
 
    .detail div {
-      gap: .5vw;
+      gap: .5dvw;
    }
 
    .image {
@@ -3038,7 +3038,7 @@ body {
    }
 
    .details .price-Details {
-      gap: 2vh;
+      gap: 2dvh;
    }
 
    .details .price {
@@ -3053,18 +3053,18 @@ body {
 
 @media (min-width: 1201px) and (max-width: 1600px) {
    .Rooms {
-      width: 80vw;
-      margin-top: 4vh;
-      gap: 6vh;
+      width: 80dvw;
+      margin-top: 4dvh;
+      gap: 6dvh;
    }
 
    .text>.title {
-      gap: 2vh;
+      gap: 2dvh;
    }
 
    .text>.title>hr {
       height: 4px;
-      width: 5vw;
+      width: 5dvw;
    }
 
    .text>.title>span {
@@ -3078,17 +3078,17 @@ body {
    }
 
    .Rooms .cards {
-      gap: 2vh;
+      gap: 2dvh;
    }
 
    .Rooms .card {
       width: 31%;
-      padding: 0vh 0vw .5vh 0vw;
+      padding: 0dvh 0dvw .5dvh 0dvw;
    }
 
    .Rooms .card .details {
-      gap: 1.5vh;
-      padding: 2vh 2vw;
+      gap: 1.5dvh;
+      padding: 2dvh 2dvw;
    }
 
    .details .title {
@@ -3096,7 +3096,7 @@ body {
    }
 
    .detail div {
-      gap: .3vw;
+      gap: .3dvw;
    }
 
    .image {
@@ -3117,7 +3117,7 @@ body {
    }
 
    .details .price-Details {
-      gap: 2vh;
+      gap: 2dvh;
    }
 
    .details .price {
@@ -3133,18 +3133,18 @@ body {
 @media (min-width: 1601px) {
 
    .Rooms {
-      width: 80vw;
-      margin-top: 4vh;
-      gap: 6vh;
+      width: 80dvw;
+      margin-top: 4dvh;
+      gap: 6dvh;
    }
 
    .text>.title {
-      gap: 2vh;
+      gap: 2dvh;
    }
 
    .text>.title>hr {
       height: 4px;
-      width: 5vw;
+      width: 5dvw;
    }
 
    .text>.title>span {
@@ -3158,17 +3158,17 @@ body {
    }
 
    .Rooms .cards {
-      gap: 2vh;
+      gap: 2dvh;
    }
 
    .Rooms .card {
       width: 31%;
-      padding: 0vh 0vw .5vh 0vw;
+      padding: 0dvh 0dvw .5dvh 0dvw;
    }
 
    .Rooms .card .details {
-      gap: 2vh;
-      padding: 2vh 1.5vw;
+      gap: 2dvh;
+      padding: 2dvh 1.5dvw;
    }
 
    .details .title {
@@ -3176,7 +3176,7 @@ body {
    }
 
    .detail div {
-      gap: .5vw;
+      gap: .5dvw;
    }
 
    .image {
@@ -3197,7 +3197,7 @@ body {
    }
 
    .details .price-Details {
-      gap: 2vh;
+      gap: 2dvh;
    }
 
    .details .price {
@@ -3209,4 +3209,154 @@ body {
       font-size: 14px;
    }
 
+}
+
+
+.Services {
+   width: 80dvw;
+   height: 100dvh;
+   color: var(--black-color);
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   padding: 4dvh 2dvw 8dvh 2dvw;
+   margin: auto;
+   margin-top: 4dvh;
+   gap: 4dvh;
+}
+
+.Services>.text {
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-items: center;
+   margin: auto;
+   gap: 2dvh;
+}
+
+
+.Services>.text>.title {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+   gap: 4dvh;
+}
+
+.Services>.text>.title>hr {
+   height: 4px;
+   width: 4dvw;
+   background-color: var(--primary-color);
+   border-radius: 100px;
+}
+
+.Services>.text>.title>span {
+   font-size: 16px;
+   font-weight: 600;
+   text-transform: uppercase;
+   color: var(--primary-color);
+   letter-spacing: .7px;
+}
+
+.Services>.text .heading {
+   display: inline-block;
+   font-size: 42px;
+   font-weight: 600;
+   color: var(--black-color);
+   letter-spacing: .2px;
+}
+
+.Services .heading span:nth-child(2) {
+   color: var(--primary-color);
+}
+
+.Services .cards {
+   width: 100%;
+   height: 60dvh;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+   margin: auto;
+   gap: 2vh;
+}
+
+.Services .card {
+   width: 32%;
+   height: 50%;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-items: center;
+   padding: 1.5dvh 1.2dvw;
+   margin: auto;
+   background: #f7f6fa;
+   box-shadow: 1px 5px 20px 0px #3e49a821;
+   border: 1px solid #00000013;
+   overflow: hidden;
+   gap: 2vh;
+
+   &:hover {
+      transition: 0.5s ease-in-out;
+      scale: 1.05;
+      color: var(--white-color);
+      background-color: var(--primary-color);
+      border-color: var(--white-color);
+   }
+}
+
+.card .iconBorder {
+   width: 100%;
+   height: 40%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.card .iconBorder .iconBorder svg {
+   height: 36px;
+   width: 36px;
+}
+
+.Services .card:hover .iconBorder svg {
+   fill: white;
+}
+
+.card .text {
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 1dvh;
+}
+
+.card .title {
+   font-size: 20px;
+   font-weight: 600;
+   margin-bottom: 1vh;
+}
+
+.card .description {
+   margin: auto;
+   text-align: center;
+   width: 90%;
+   font-size: 14px;
+   opacity: .8;
+   font-weight: 400;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   -webkit-line-clamp: 2;
 }
