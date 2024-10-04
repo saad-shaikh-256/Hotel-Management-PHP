@@ -2612,10 +2612,6 @@ body {
    gap: 2vh;
 }
 
-.detail hr {
-   width: 5px;
-}
-
 .detail div {
    display: flex;
    flex-direction: row;
@@ -2637,9 +2633,12 @@ body {
 .details .description {
    width: 100%;
    font-size: 16px;
-   max-lines: 2;
-   text-overflow: ellipsis;
    opacity: .9;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 2;
+   overflow: hidden;
+   text-overflow: ellipsis;
 }
 
 .details .price-Details {
@@ -2858,6 +2857,7 @@ body {
    .image {
       width: 100%;
    }
+
    .detail img {
       height: 16px;
       width: 16px;
@@ -2865,7 +2865,7 @@ body {
 
    .detail span {
       font-size: 14px;
-   }  
+   }
 
    .details .description {
       font-size: 14px;
@@ -2885,10 +2885,328 @@ body {
    }
 }
 
-@media (min-width: 769px) and (max-width: 992px) {}
+@media (min-width: 769px) and (max-width: 992px) {
+   .Rooms {
+      width: 80vw;
+      margin-top: 4vh;
+      gap: 6vh;
+   }
 
-@media (min-width: 993px) and (max-width: 1200px) {}
+   .text>.title {
+      gap: 2vh;
+   }
 
-@media (min-width: 1201px) and (max-width: 1600px) {}
+   .text>.title>hr {
+      height: 4px;
+      width: 5vw;
+   }
 
-@media (min-width: 1601px) {}
+   .text>.title>span {
+      font-size: 16px;
+      font-weight: 600;
+   }
+
+   .text .heading {
+      font-size: 34px;
+      font-weight: 500;
+   }
+
+   .Rooms .cards {
+      gap: 2vh;
+   }
+
+   .Rooms .card {
+      width: 31%;
+      padding: 0vh 0vw .5vh 0vw;
+   }
+
+   .Rooms .card .details {
+      gap: 1.5vh;
+      padding: 2vh 1.5vw;
+   }
+
+   .details .title {
+      font-size: 16px;
+   }
+
+   .details hr {
+      display: none;
+   }
+
+   .detail div {
+      gap: .5vw;
+   }
+
+   .image {
+      width: 100%;
+   }
+
+   .detail img {
+      height: 14px;
+      width: 14px;
+   }
+
+   .detail span {
+      font-size: 12px;
+   }
+
+   .details .description {
+      font-size: 12px;
+   }
+
+   .details .price-Details {
+      gap: 2vh;
+   }
+
+   .details .price {
+      font-size: 14px;
+      font-weight: 600;
+   }
+
+   .details .Book-btn a {
+      font-size: 12px;
+   }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+   .Rooms {
+      width: 80vw;
+      margin-top: 4vh;
+      gap: 6vh;
+   }
+
+   .text>.title {
+      gap: 2vh;
+   }
+
+   .text>.title>hr {
+      height: 4px;
+      width: 5vw;
+   }
+
+   .text>.title>span {
+      font-size: 16px;
+      font-weight: 600;
+   }
+
+   .text .heading {
+      font-size: 34px;
+      font-weight: 600;
+   }
+
+   .Rooms .cards {
+      gap: 2vh;
+   }
+
+   .Rooms .card {
+      width: 31%;
+      padding: 0vh 0vw .5vh 0vw;
+   }
+
+   .Rooms .card .details {
+      gap: 1.5vh;
+      padding: 2vh 1.5vw;
+   }
+
+   .details .title {
+      font-size: 16px;
+   }
+
+   .details hr {
+      display: none;
+   }
+
+   .detail div {
+      gap: .5vw;
+   }
+
+   .image {
+      width: 100%;
+   }
+
+   .detail img {
+      height: 14px;
+      width: 14px;
+   }
+
+   .detail span {
+      font-size: 12px;
+   }
+
+   .details .description {
+      font-size: 12px;
+   }
+
+   .details .price-Details {
+      gap: 2vh;
+   }
+
+   .details .price {
+      font-size: 14px;
+      font-weight: 600;
+   }
+
+   .details .Book-btn a {
+      font-size: 12px;
+   }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+   .Rooms {
+      width: 80vw;
+      margin-top: 4vh;
+      gap: 6vh;
+   }
+
+   .text>.title {
+      gap: 2vh;
+   }
+
+   .text>.title>hr {
+      height: 4px;
+      width: 5vw;
+   }
+
+   .text>.title>span {
+      font-size: 16px;
+      font-weight: 600;
+   }
+
+   .text .heading {
+      font-size: 34px;
+      font-weight: 600;
+   }
+
+   .Rooms .cards {
+      gap: 2vh;
+   }
+
+   .Rooms .card {
+      width: 31%;
+      padding: 0vh 0vw .5vh 0vw;
+   }
+
+   .Rooms .card .details {
+      gap: 1.5vh;
+      padding: 2vh 2vw;
+   }
+
+   .details .title {
+      font-size: 16px;
+   }
+
+   .detail div {
+      gap: .3vw;
+   }
+
+   .image {
+      width: 100%;
+   }
+
+   .detail img {
+      height: 14px;
+      width: 14px;
+   }
+
+   .detail span {
+      font-size: 12px;
+   }
+
+   .details .description {
+      font-size: 14px;
+   }
+
+   .details .price-Details {
+      gap: 2vh;
+   }
+
+   .details .price {
+      font-size: 14px;
+      font-weight: 600;
+   }
+
+   .details .Book-btn a {
+      font-size: 12px;
+   }
+}
+
+@media (min-width: 1601px) {
+
+   .Rooms {
+      width: 80vw;
+      margin-top: 4vh;
+      gap: 6vh;
+   }
+
+   .text>.title {
+      gap: 2vh;
+   }
+
+   .text>.title>hr {
+      height: 4px;
+      width: 5vw;
+   }
+
+   .text>.title>span {
+      font-size: 16px;
+      font-weight: 600;
+   }
+
+   .text .heading {
+      font-size: 34px;
+      font-weight: 600;
+   }
+
+   .Rooms .cards {
+      gap: 2vh;
+   }
+
+   .Rooms .card {
+      width: 31%;
+      padding: 0vh 0vw .5vh 0vw;
+   }
+
+   .Rooms .card .details {
+      gap: 2vh;
+      padding: 2vh 1.5vw;
+   }
+
+   .details .title {
+      font-size: 18px;
+   }
+
+   .detail div {
+      gap: .5vw;
+   }
+
+   .image {
+      width: 100%;
+   }
+
+   .detail img {
+      height: 16px;
+      width: 16px;
+   }
+
+   .detail span {
+      font-size: 14px;
+   }
+
+   .details .description {
+      font-size: 14px;
+   }
+
+   .details .price-Details {
+      gap: 2vh;
+   }
+
+   .details .price {
+      font-size: 16px;
+      font-weight: 600;
+   }
+
+   .details .Book-btn a {
+      font-size: 14px;
+   }
+
+}

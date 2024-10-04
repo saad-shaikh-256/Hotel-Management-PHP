@@ -115,12 +115,10 @@
                      <img src="Assets\Icons\UserSide\bed.svg" alt="Bed Icon">
                      <span>3 Beds</span>
                   </div>
-                  <hr>
                   <div>
                      <img src="Assets\Icons\UserSide\bath.svg" alt="Bath Icon">
                      <span>2 Bath</span>
                   </div>
-                  <hr>
                   <div>
                      <img src="Assets\Icons\UserSide\wifi.svg" alt="Wifi Icon">
                      <span>Wifi</span>
@@ -155,12 +153,10 @@
                      <img src="Assets\Icons\UserSide\bed.svg" alt="Bed Icon">
                      <span>5 Beds</span>
                   </div>
-                  <hr>
                   <div>
                      <img src="Assets\Icons\UserSide\bath.svg" alt="Bath Icon">
                      <span>3 Bath</span>
                   </div>
-                  <hr>
                   <div>
                      <img src="Assets\Icons\UserSide\wifi.svg" alt="Wifi Icon">
                      <span>Wifi</span>
@@ -195,12 +191,10 @@
                      <img src="Assets\Icons\UserSide\bed.svg" alt="Bed Icon">
                      <span>7 Beds</span>
                   </div>
-                  <hr>
                   <div>
                      <img src="Assets\Icons\UserSide\bath.svg" alt="Bath Icon">
                      <span>5 Bath</span>
                   </div>
-                  <hr>
                   <div>
                      <img src="Assets\Icons\UserSide\wifi.svg" alt="Wifi Icon">
                      <span>Wifi</span>
