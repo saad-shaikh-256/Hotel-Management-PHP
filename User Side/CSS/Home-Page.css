@@ -3236,6 +3236,7 @@ body {
    align-items: center;
    margin: auto;
    gap: 2dvh;
+   text-align: center;
 }
 
 
@@ -3301,7 +3302,7 @@ body {
    box-shadow: 1px 5px 20px 0px #3e49a821;
    border: 1px solid #00000013;
    overflow: hidden;
-   gap: 2vh;
+   gap: 1vh;
 
    &:hover {
       transition: 0.5s ease-in-out;
@@ -3312,7 +3313,7 @@ body {
    }
 }
 
-.card .iconBorder {
+.Services .card .iconBorder {
    width: 100%;
    height: 40%;
    display: flex;
@@ -3321,7 +3322,7 @@ body {
 
 }
 
-.card .iconBorder .iconBorder svg {
+.Services .card .iconBorder .iconBorder svg {
    height: 36px;
    width: 36px;
 }
@@ -3330,7 +3331,7 @@ body {
    fill: white;
 }
 
-.card .text {
+.Services .card .text {
    width: 100%;
    height: auto;
    display: flex;
@@ -3341,13 +3342,13 @@ body {
    gap: 1dvh;
 }
 
-.card .title {
+.Services .card .title {
    font-size: 20px;
    font-weight: 600;
    margin-bottom: 1vh;
 }
 
-.card .description {
+.Services .card .description {
    margin: auto;
    text-align: center;
    width: 90%;
@@ -3359,4 +3360,432 @@ body {
    overflow: hidden;
    text-overflow: ellipsis;
    -webkit-line-clamp: 2;
+}
+
+@media only screen and (max-width: 480px) {
+   .Services {
+      width: 90dvw;
+      padding: 2dvh 1.5dvw 8dvh 1.5dvw;
+      margin-top: 2dvh;
+      gap: 2dvh;
+   }
+
+   .Services>.text>.title {
+      gap: 2dvh;
+   }
+
+   .Services>.text>.title>span {
+      font-size: 16px;
+      font-weight: 600;
+   }
+
+   .Services>.text .heading {
+      font-size: 30px;
+      font-weight: 500;
+   }
+
+   .Services .cards {
+      width: 100%;
+      height: 60dvh;
+   }
+
+   .Services .card {
+      width: 80%;
+      height: 40%;
+      padding: 1dvh 1.2dvw;
+      gap: 1vh;
+   }
+
+   .Services .card .iconBorder {
+      width: 100%;
+      height: 40%;
+   }
+
+   .Services .card .iconBorder .iconBorder svg {
+      height: 28px;
+      width: 28px;
+   }
+
+   .Services .card .text {
+      width: 100%;
+      height: auto;
+      gap: 1dvh;
+   }
+
+   .Services .card .title {
+      font-size: 16px;
+      font-weight: 600;
+   }
+
+   .Services .card .description {
+      font-size: 10px;
+      font-weight: 400;
+   }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+   .Services {
+      width: 90dvw;
+      padding: 2dvh 1.5dvw 4dvh 1.5dvw;
+      margin-top: 2dvh;
+   }
+
+   .Services>.text>.title {
+      gap: 2dvh;
+   }
+
+   .Services>.text>.title>span {
+      font-size: 16px;
+      font-weight: 600;
+   }
+
+   .Services>.text .heading {
+      font-size: 30px;
+      font-weight: 500;
+   }
+
+   .Services .cards {
+      width: 100%;
+      height: 60dvh;
+   }
+
+   .Services .card {
+      width: 45%;
+      height: 40%;
+      padding: 1dvh 1.2dvw;
+      gap: 1vh;
+   }
+
+   .Services .card .iconBorder {
+      width: 100%;
+      height: 40%;
+   }
+
+   .Services .card .iconBorder .iconBorder svg {
+      height: 32px;
+      width: 32px;
+   }
+
+   .Services .card .text {
+      width: 100%;
+      height: auto;
+      gap: 1dvh;
+      text-align: center;
+   }
+
+   .Services .card .title {
+      font-size: 16px;
+      font-weight: 600;
+   }
+
+   .Services .card .description {
+      font-size: 12px;
+      font-weight: 400;
+   }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+   .Services {
+      width: 90dvw;
+      padding: 2dvh 1.5dvw 4dvh 1.5dvw;
+      margin-top: 2dvh;
+   }
+
+   .Services>.text>.title {
+      gap: 2dvh;
+   }
+
+   .Services>.text>.title>span {
+      font-size: 16px;
+      font-weight: 600;
+   }
+
+   .Services>.text .heading {
+      font-size: 30px;
+      font-weight: 500;
+   }
+
+   .Services .cards {
+      width: 100%;
+      height: 60dvh;
+   }
+
+   .Services .card {
+      width: 45%;
+      height: 40%;
+      padding: 1dvh 1.2dvw;
+      gap: 1vh;
+   }
+
+   .Services .card .iconBorder {
+      width: 100%;
+      height: 40%;
+   }
+
+   .Services .card .iconBorder .iconBorder svg {
+      height: 32px;
+      width: 32px;
+   }
+
+   .Services .card .text {
+      width: 100%;
+      height: auto;
+      gap: 1dvh;
+      text-align: center;
+   }
+
+   .Services .card .title {
+      font-size: 16px;
+      font-weight: 600;
+   }
+
+   .Services .card .description {
+      font-size: 12px;
+      font-weight: 400;
+   }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+   .Services {
+      width: 90dvw;
+      padding: 2dvh 1.5dvw 4dvh 1.5dvw;
+      margin-top: 2dvh;
+   }
+
+   .Services>.text>.title {
+      gap: 2dvh;
+   }
+
+   .Services>.text>.title>span {
+      font-size: 16px;
+      font-weight: 600;
+   }
+
+   .Services>.text .heading {
+      font-size: 34px;
+      font-weight: 600;
+   }
+
+   .Services .cards {
+      width: 100%;
+      height: 60dvh;
+   }
+
+   .Services .card {
+      width: 30%;
+      height: 40%;
+      padding: 1dvh 1.2dvw;
+      gap: 1vh;
+   }
+
+   .Services .card .iconBorder {
+      width: 100%;
+      height: 40%;
+   }
+
+   .Services .card .iconBorder .iconBorder svg {
+      height: 32px;
+      width: 32px;
+   }
+
+   .Services .card .text {
+      width: 100%;
+      height: auto;
+      gap: 1dvh;
+      text-align: center;
+   }
+
+   .Services .card .title {
+      font-size: 16px;
+      font-weight: 600;
+   }
+
+   .Services .card .description {
+      font-size: 12px;
+      font-weight: 400;
+   }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+   .Services {
+      width: 90dvw;
+      padding: 2dvh 1.5dvw 4dvh 1.5dvw;
+      margin-top: 2dvh;
+   }
+
+   .Services>.text>.title {
+      gap: 2dvh;
+   }
+
+   .Services>.text>.title>span {
+      font-size: 16px;
+      font-weight: 600;
+   }
+
+   .Services>.text .heading {
+      font-size: 38px;
+      font-weight: 600;
+   }
+
+   .Services .cards {
+      width: 100%;
+      height: 60dvh;
+   }
+
+   .Services .card {
+      width: 30%;
+      height: 40%;
+      padding: 2dvh 2dvw;
+      gap: 1vh;
+   }
+
+   .Services .card .iconBorder {
+      width: 100%;
+      height: 40%;
+   }
+
+   .Services .card .iconBorder .iconBorder svg {
+      height: 32px;
+      width: 32px;
+   }
+
+   .Services .card .text {
+      width: 100%;
+      height: auto;
+      gap: 1dvh;
+      text-align: center;
+   }
+
+   .Services .card .title {
+      font-size: 18px;
+      font-weight: 600;
+   }
+
+   .Services .card .description {
+      font-size: 14px;
+      font-weight: 400;
+   }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+   .Services {
+      width: 90dvw;
+      padding: 2dvh 1.5dvw 4dvh 1.5dvw;
+      margin-top: 2dvh;
+   }
+
+   .Services>.text>.title {
+      gap: 2dvh;
+   }
+
+   .Services>.text>.title>span {
+      font-size: 16px;
+      font-weight: 600;
+   }
+
+   .Services>.text .heading {
+      font-size: 42px;
+      font-weight: 600;
+   }
+
+   .Services .cards {
+      width: 100%;
+      height: 60dvh;
+   }
+
+   .Services .card {
+      width: 30%;
+      height: 50%;
+      padding: 2dvh 1.5dvw;
+      gap: 1vh;
+   }
+
+   .Services .card .iconBorder {
+      width: 100%;
+      height: 40%;
+   }
+
+   .Services .card .iconBorder .iconBorder svg {
+      height: 32px;
+      width: 32px;
+   }
+
+   .Services .card .text {
+      width: 100%;
+      height: auto;
+      gap: 1dvh;
+      text-align: center;
+   }
+
+   .Services .card .title {
+      font-size: 20px;
+      font-weight: 600;
+   }
+
+   .Services .card .description {
+      font-size: 14px;
+      font-weight: 400;
+   }
+}
+
+@media (min-width: 1601px) {
+   .Services {
+      width: 90dvw;
+      padding: 2dvh 1.5dvw 4dvh 1.5dvw;
+      margin-top: 2dvh;
+   }
+
+   .Services>.text>.title {
+      gap: 2dvh;
+   }
+
+   .Services>.text>.title>span {
+      font-size: 16px;
+      font-weight: 600;
+   }
+
+   .Services>.text .heading {
+      font-size: 42px;
+      font-weight: 600;
+   }
+
+   .Services .cards {
+      width: 100%;
+      height: 60dvh;
+      gap: 2dvw;
+   }
+
+   .Services .card {
+      width: 30%;
+      height: 50%;
+      padding: 2dvh 1.5dvw;
+      gap: 1vh;
+   }
+
+   .Services .card .iconBorder {
+      width: 100%;
+      height: 40%;
+   }
+
+   .Services .card .iconBorder .iconBorder svg {
+      height: 32px;
+      width: 32px;
+   }
+
+   .Services .card .text {
+      width: 100%;
+      height: auto;
+      gap: 1dvh;
+      text-align: center;
+   }
+
+   .Services .card .title {
+      font-size: 20px;
+      font-weight: 600;
+   }
+
+   .Services .card .description {
+      font-size: 14px;
+      font-weight: 400;
+   }
 }
